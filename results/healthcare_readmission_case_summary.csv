@@ -1,0 +1,4 @@
+features,hypotheses,n,readmit_rate,split
+32,38,33922,0.11373150168032545,early_discovery
+32,38,33922,0.11373150168032545,middle_validation
+32,38,33922,0.10733447320323095,late_holdout

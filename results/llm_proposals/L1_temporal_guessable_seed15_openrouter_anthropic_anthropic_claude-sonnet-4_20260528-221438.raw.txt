@@ -1,0 +1,31 @@
+```json
+{
+  "hypotheses": [
+    "IF EVENT x4 WITHIN 30 DAYS THEN y = 1 increases",
+    "IF x2 = 1 THEN y = 1 increases",
+    "IF x0 = 1 THEN y = 1 increases",
+    "IF x1 = 1 THEN y = 1 increases",
+    "IF x2 = 1 AND x0 = 1 THEN y = 1 increases",
+    "IF x2 = 1 AND x1 = 1 THEN y = 1 increases",
+    "IF x0 = 1 AND x1 = 1 THEN y = 1 increases",
+    "IF EVENT x4 WITHIN 30 DAYS AND x2 = 1 THEN y = 1 increases",
+    "IF EVENT x4 WITHIN 30 DAYS AND x0 = 1 THEN y = 1 increases",
+    "IF EVENT x4 WITHIN 30 DAYS AND x1 = 1 THEN y = 1 increases",
+    "IF x2 = 1 AND x5 = 1 THEN y = 1 increases",
+    "IF x0 = 1 AND x5 = 1 THEN y = 1 increases",
+    "IF x1 = 1 AND x5 = 1 THEN y = 1 increases",
+    "IF x2 = 1 AND x3 = 1 THEN y = 1 increases",
+    "IF x0 = 1 AND x3 = 1 THEN y = 1 increases",
+    "IF x6 = 1 THEN y = 1 decreases",
+    "IF x7 = 1 THEN y = 1 decreases",
+    "IF x6 = 1 AND x7 = 1 THEN y = 1 decreases",
+    "IF x3 = 1 THEN y = 1 increases",
+    "IF x5 = 1 THEN y = 1 increases",
+    "IF x1 = 1 AND x3 = 1 THEN y = 1 increases",
+    "IF EVENT x4 WITHIN 30 DAYS AND x3 = 1 THEN y = 1 increases",
+    "IF EVENT x4 WITHIN 30 DAYS AND x5 = 1 THEN y = 1 increases",
+    "IF x6 = 1 AND x2 = 1 THEN y = 1 increases",
+    "IF x7 = 1 AND x2 = 1 THEN y = 1 increases"
+  ]
+}
+```

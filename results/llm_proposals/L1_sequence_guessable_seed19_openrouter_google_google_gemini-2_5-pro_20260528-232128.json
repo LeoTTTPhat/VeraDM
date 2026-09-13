@@ -1,0 +1,32 @@
+{
+  "dataset": "L1_sequence_guessable_seed19",
+  "provider": "openrouter/google",
+  "model": "google/gemini-2.5-pro",
+  "hypotheses": [
+    "IF x2 = 1 THEN y = 1 increases",
+    "IF x3 = 1 THEN y = 1 increases",
+    "IF SEQUENCE x2 -> x3 WITHIN 7 DAYS THEN y = 1 increases",
+    "IF x0 = 1 THEN y = 1 increases",
+    "IF x1 = 1 THEN y = 1 increases",
+    "IF x4 = 1 THEN y = 1 decreases",
+    "IF x7 = 1 THEN y = 1 decreases",
+    "IF x2 = 1 AND x3 = 1 THEN y = 1 increases",
+    "IF x0 = 1 AND x2 = 1 THEN y = 1 increases",
+    "IF x1 = 1 AND x3 = 1 THEN y = 1 increases",
+    "IF x0 = 1 AND x3 = 1 THEN y = 1 increases",
+    "IF x1 = 1 AND x2 = 1 THEN y = 1 increases",
+    "IF x3 = 1 AND x4 = 1 THEN y = 1 increases",
+    "IF x2 = 1 AND x4 = 1 THEN y = 1 increases",
+    "IF x3 = 1 AND x7 = 1 THEN y = 1 increases",
+    "IF x2 = 1 AND x7 = 1 THEN y = 1 increases",
+    "IF x0 = 1 AND x1 = 1 THEN y = 1 increases",
+    "IF x6 = 1 THEN y = 1 increases",
+    "IF x4 = 1 AND x7 = 1 THEN y = 1 decreases",
+    "IF x0 = 1 AND x4 = 1 THEN y = 1 increases",
+    "IF x1 = 1 AND x7 = 1 THEN y = 1 increases",
+    "IF x0 = 1 AND x6 = 1 THEN y = 1 increases",
+    "IF x1 = 1 AND x6 = 1 THEN y = 1 increases",
+    "IF x2 = 1 AND x6 = 1 THEN y = 1 increases",
+    "IF x3 = 1 AND x6 = 1 THEN y = 1 increases"
+  ]
+}

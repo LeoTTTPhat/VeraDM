@@ -1,0 +1,7 @@
+accepted,accepted_with_context,context_compile_rate,contrast_rejections,dataset,hypotheses,mean_context_variables,mode,rejected,unique_context_sets
+14,0,,16,Bank,39,0.0,fixed-default-context,25,
+14,14,1.0,15,Bank,39,3.0,two-step-context-proposer,25,5
+21,0,,11,Bike,35,0.0,fixed-default-context,14,
+22,22,1.0,10,Bike,35,3.0,two-step-context-proposer,13,6
+12,0,,23,Healthcare,38,0.0,fixed-default-context,26,
+12,12,1.0,22,Healthcare,38,3.0,two-step-context-proposer,26,6

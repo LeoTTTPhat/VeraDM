@@ -1,0 +1,2 @@
+valid_items,invalid_items,valid_compile_rate,invalid_rejection_rate,predicate_precision,predicate_recall,predicate_f1,direction_accuracy
+60,20,1.0,0.8,1.0,1.0,1.0,1.0

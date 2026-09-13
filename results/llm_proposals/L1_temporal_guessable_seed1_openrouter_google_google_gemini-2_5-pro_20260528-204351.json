@@ -1,0 +1,9 @@
+{
+  "dataset": "L1_temporal_guessable_seed1",
+  "provider": "openrouter/google",
+  "model": "google/gemini-2.5-pro",
+  "hypotheses": [
+    "IF x2 = 1 THEN y = 1 increases",
+    "IF EVENT x2 WITHIN 30 DAYS THEN y = 1 increases"
+  ]
+}

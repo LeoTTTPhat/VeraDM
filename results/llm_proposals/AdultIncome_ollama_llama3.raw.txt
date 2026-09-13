@@ -1,0 +1,14 @@
+import pandas as pd
+import json
+
+# Load the dataset
+df = pd.read_csv('adult_income.csv')
+
+# Define the feature schema and discovery-set summaries
+feature_schema = {
+    'x0': {'name': 'adult_age_ge_40', 'support': 0.440, 'discovery_risk_difference': 0.203},
+    'x1': {'name': 'adult_age_ge_55', 'support': 0.132, 'discovery_risk_difference': 0.060},
+    'x2': {'name': 'adult_education_bachelors_plus', 'support': 0.252, 'discovery_risk_difference': 0.316},
+    'x3': {'name': 'adult_hours_ge_45', 'support': 0.288, 'discovery_risk_difference': 0.226},
+    'x4': {'name': 'adult_capital_gain_positive', 'support': 0.087, 'discovery_risk_difference': 0.405},
+    'x5': {'

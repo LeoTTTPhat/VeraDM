@@ -1,0 +1,2 @@
+participants,mean_within_subject_difference,ci_low,ci_high,positive_differences,negative_differences,ties,sign_test_p,response_file
+16,0.17708333333333334,0.020792449793128803,0.33337421687353785,12,3,1,0.03515625,human_audit_response_template.csv

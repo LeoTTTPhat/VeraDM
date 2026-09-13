@@ -1,0 +1,37 @@
+```json
+{
+  "hypotheses": [
+    {
+      "x0": "IF x0 = 1 THEN y = 1 increases",
+      "y": 1,
+      "discovery_risk_difference": 0.203,
+      "support": 0.440,
+      "target_class": "adult"
+    },
+    {
+      "x1": "IF x1 = 1 AND x4 = 1 THEN y = 1 decreases",
+      "y": 1,
+      "discovery_risk_difference": 0.252,
+      "support": 0.132,
+      "target_class": "adult"
+    },
+    {
+      "x2": "IF x2 = 1 AND x4 = 1 THEN y = 1 decreases",
+      "y": 1,
+      "discovery_risk_difference": 0.060,
+      "support": 0.736,
+      "target_class": "adult"
+    },
+    {
+      "x3": "IF x3 = 1 AND x4 = 1 THEN y = 1 decreases",
+      "y": 1,
+      "discovery_risk_difference": 0.288,
+      "support": 0.252,
+      "target_class": "adult"
+    },
+    {
+      "x4": "IF x4 = 1 AND x6 = 1 THEN y = 1 decreases",
+      "y": 1,
+      "discovery_risk_difference": 0.372,
+      "support": 0.859,
+      "target_class":

@@ -1,0 +1,6 @@
+{
+  "dataset": "L1_temporal_guessable_seed40",
+  "provider": "openrouter/qwen",
+  "model": "qwen/qwen-2.5-72b-instruct",
+  "hypotheses": []
+}

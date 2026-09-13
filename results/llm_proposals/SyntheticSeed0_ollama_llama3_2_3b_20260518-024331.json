@@ -1,0 +1,6 @@
+{
+  "dataset": "SyntheticSeed0",
+  "provider": "ollama",
+  "model": "llama3.2:3b",
+  "hypotheses": []
+}

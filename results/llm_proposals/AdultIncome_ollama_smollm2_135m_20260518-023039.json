@@ -1,0 +1,12 @@
+{
+  "dataset": "AdultIncome",
+  "provider": "ollama",
+  "model": "smollm2:135m",
+  "hypotheses": [
+    "x0\": \"IF x0 = 1 THEN y = 1 increases",
+    "x1\": \"IF x1 = 1 AND x4 = 1 THEN y = 1 decreases",
+    "x2\": \"IF x2 = 1 AND x4 = 1 THEN y = 1 decreases",
+    "x3\": \"IF x3 = 1 AND x4 = 1 THEN y = 1 decreases",
+    "x4\": \"IF x4 = 1 AND x6 = 1 THEN y = 1 decreases"
+  ]
+}

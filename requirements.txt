@@ -1,0 +1,7 @@
+# Verified against the interpreter used to produce results/ (Python 3.9.6).
+numpy==2.0.2
+pandas==2.3.3
+
+# Optional. run_power_separation_benchmark.py imports matplotlib inside a
+# try/except and falls back to a built-in renderer when it is absent.
+# matplotlib==3.9.4

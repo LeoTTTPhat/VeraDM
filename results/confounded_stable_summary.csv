@@ -1,0 +1,3 @@
+method,accepted_per_seed,true_recall,false_accepts_per_seed,empirical_fdr,confounded_accept_rate,shifted_accept_rate
+StableEnv-BH,2.0,1.0,1.0,0.5,1.0,0.0
+VeraDM,1.0,1.0,0.0,0.0,0.0,0.0

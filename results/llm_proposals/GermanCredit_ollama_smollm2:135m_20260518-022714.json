@@ -1,0 +1,6 @@
+{
+  "dataset": "GermanCredit",
+  "provider": "ollama",
+  "model": "smollm2:135m",
+  "hypotheses": []
+}

@@ -1,0 +1,3 @@
+decision,holdout_effect,q_value,query,reason,validation_effect
+accepted,0.4294399742376834,0.003831417624521,adult_education_bachelors_plus = 1 AND adult_hours_ge_45 = 1 -> P(y=1) increases,passes all verification gates,0.4309290626335611
+rejected,0.149155981920487,0.0262725779967159,german_duration_ge_24 = 1 AND german_employed_short = 1 -> P(y=1) increases,held-out effect does not replicate,0.2754098360655737

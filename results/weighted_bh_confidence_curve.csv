@@ -1,0 +1,22 @@
+alpha,dataset,discoveries,empirical_fdr,false_discoveries,mean_weight_nonreplicating,mean_weight_replicating,method,power,replicating_discoveries
+0.002,Bank temporal,0,0.0,0,1.0,1.0,Uniform BH,0.0,0
+0.003,Bank temporal,31,0.3225806451612903,10,1.0,1.0,Uniform BH,1.0,21
+0.005,Bank temporal,32,0.34375,11,1.0,1.0,Uniform BH,1.0,21
+0.01,Bank temporal,32,0.34375,11,1.0,1.0,Uniform BH,1.0,21
+0.02,Bank temporal,32,0.34375,11,1.0,1.0,Uniform BH,1.0,21
+0.05,Bank temporal,34,0.38235294117647056,13,1.0,1.0,Uniform BH,1.0,21
+0.1,Bank temporal,36,0.4166666666666667,15,1.0,1.0,Uniform BH,1.0,21
+0.002,Bank temporal,0,0.0,0,0.3196362875736281,1.5831688963654615,"Weighted BH, calibrated",0.0,0
+0.003,Bank temporal,21,0.0,0,0.3196362875736281,1.5831688963654615,"Weighted BH, calibrated",1.0,21
+0.005,Bank temporal,21,0.0,0,0.3196362875736281,1.5831688963654615,"Weighted BH, calibrated",1.0,21
+0.01,Bank temporal,31,0.3225806451612903,10,0.3196362875736281,1.5831688963654615,"Weighted BH, calibrated",1.0,21
+0.02,Bank temporal,32,0.34375,11,0.3196362875736281,1.5831688963654615,"Weighted BH, calibrated",1.0,21
+0.05,Bank temporal,32,0.34375,11,0.3196362875736281,1.5831688963654615,"Weighted BH, calibrated",1.0,21
+0.1,Bank temporal,32,0.34375,11,0.3196362875736281,1.5831688963654615,"Weighted BH, calibrated",1.0,21
+0.002,Bank temporal,0,0.0,0,1.753610772877744,0.35404790896193294,"Weighted BH, miscalibrated",0.0,0
+0.003,Bank temporal,0,0.0,0,1.753610772877744,0.35404790896193294,"Weighted BH, miscalibrated",0.0,0
+0.005,Bank temporal,10,1.0,10,1.753610772877744,0.35404790896193294,"Weighted BH, miscalibrated",0.0,0
+0.01,Bank temporal,32,0.34375,11,1.753610772877744,0.35404790896193294,"Weighted BH, miscalibrated",1.0,21
+0.02,Bank temporal,32,0.34375,11,1.753610772877744,0.35404790896193294,"Weighted BH, miscalibrated",1.0,21
+0.05,Bank temporal,36,0.4166666666666667,15,1.753610772877744,0.35404790896193294,"Weighted BH, miscalibrated",1.0,21
+0.1,Bank temporal,37,0.43243243243243246,16,1.753610772877744,0.35404790896193294,"Weighted BH, miscalibrated",1.0,21

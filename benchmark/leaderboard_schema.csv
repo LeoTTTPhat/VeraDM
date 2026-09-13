@@ -1,0 +1,2 @@
+system,proposal_source,synthetic_invalid_accept_rate,synthetic_fdr_at_1000_nulls,real_injection_recall,real_injection_fdr,bank_replication_survival,bike_replication_survival,context_compile_rate,evidence_completeness,runtime_seconds,cost_usd,notes
+VeraDM,cached LLM + verifier,,,,,,,,,,,baseline row filled by evaluation script

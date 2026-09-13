@@ -1,0 +1,41 @@
+```json
+{
+  "hypotheses": [
+    {
+      "x0": 1,
+      "y": 1,
+      "z": 1,
+      "support": 0.406,
+      "discovery_risk_difference": -0.248,
+      "type": "binary",
+      "description": "German credit data mining hypothesis"
+    },
+    {
+      "x1": 1,
+      "y": 1,
+      "z": 1,
+      "support": 0.268,
+      "discovery_risk_difference": -0.249,
+      "type": "binary",
+      "description": "German credit data mining hypothesis"
+    },
+    {
+      "x2": 1,
+      "y": 1,
+      "z": 1,
+      "support": 0.397,
+      "discovery_risk_difference": -0.254,
+      "type": "binary",
+      "description": "German credit data mining hypothesis"
+    },
+    {
+      "x3": 1,
+      "y": 1,
+      "z": 1,
+      "support": 0.509,
+      "discovery_risk_difference": -0.268,
+      "type": "binary",
+      "description": "German credit data mining hypothesis"
+    },
+    {
+      "x4": 1

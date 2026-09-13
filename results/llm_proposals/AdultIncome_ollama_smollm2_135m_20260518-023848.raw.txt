@@ -1,0 +1,41 @@
+```json
+{
+  "hypotheses": [
+    {
+      "x0": 1,
+      "y": 1,
+      "support": 0.440,
+      "discovery_risk_difference": 0.203,
+      "number": 5,
+      "type": "adult",
+      "description": "Adult in the United States.",
+    },
+    {
+      "x1": 1,
+      "y": 1,
+      "support": 0.132,
+      "discovery_risk_difference": 0.060,
+      "number": 5,
+      "type": "adult",
+      "description": "Adult in the United States.",
+    },
+    {
+      "x2": 1,
+      "y": 1,
+      "support": 0.252,
+      "discovery_risk_difference": 0.316,
+      "number": 4,
+      "type": "adult",
+      "description": "Adult in the United States.",
+    },
+    {
+      "x3": 1,
+      "y": 1,
+      "support": 0.288,
+      "discovery_risk_difference": 0.226,
+      "number": 4,
+      "type": "adult",
+      "description": "Adult in the United States.",
+    },
+    {
+      "x4": 1

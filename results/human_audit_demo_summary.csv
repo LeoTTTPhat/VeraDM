@@ -1,0 +1,4 @@
+condition,responses,participants,accuracy,mean_confidence,median_time_seconds
+evidence_card,96,16,0.78125,3.6770833333333335,48.0
+prose_only,96,16,0.6666666666666666,3.4375,31.0
+difference_card_minus_prose,192,16,0.11458333333333337,,

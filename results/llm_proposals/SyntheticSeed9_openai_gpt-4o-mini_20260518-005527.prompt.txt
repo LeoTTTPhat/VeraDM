@@ -1,0 +1,51 @@
+# LLM Hypothesis Proposal Prompt
+
+You are proposing candidate data-mining hypotheses for a verifier.
+
+The verifier accepts only hypotheses in this exact grammar:
+
+```text
+IF x<id> = 1 THEN y = 1 increases
+IF x<id> = 1 THEN y = 1 decreases
+IF x<id> = 1 AND x<id> = 1 THEN y = 1 increases
+IF x<id> = 1 AND x<id> = 1 THEN y = 1 decreases
+```
+
+Rules:
+
+- Use only feature IDs listed in the schema.
+- Use at most two predicates per hypothesis.
+- Do not invent features.
+- Do not include explanations.
+- Return JSON only.
+- Return an object with a single key named `hypotheses`.
+- `hypotheses` must be an array of strings.
+
+Example output:
+
+```json
+{
+  "hypotheses": [
+    "IF x0 = 1 THEN y = 1 increases",
+    "IF x1 = 1 AND x4 = 1 THEN y = 1 decreases"
+  ]
+}
+```
+
+
+
+Dataset name: SyntheticSeed9
+Number of hypotheses requested: 24
+
+Target: y is binary. y = 1 is the positive class.
+Feature schema and discovery-set summaries:
+- x0: x0; support=0.491; discovery_risk_difference=0.329
+- x1: x1; support=0.512; discovery_risk_difference=0.313
+- x2: x2; support=0.504; discovery_risk_difference=0.764
+- x3: x3; support=0.492; discovery_risk_difference=-0.019
+- x4: x4; support=0.507; discovery_risk_difference=0.012
+- x5: x5; support=0.489; discovery_risk_difference=0.006
+- x6: x6; support=0.490; discovery_risk_difference=-0.006
+- x7: x7; support=0.524; discovery_risk_difference=0.018
+
+Return JSON now.

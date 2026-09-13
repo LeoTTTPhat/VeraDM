@@ -1,0 +1,20 @@
+```json
+{
+  "hypotheses": [
+    {
+      "x0": 2,
+      "y": 1,
+      "support": 0.531,
+      "discovery_risk_difference": -0.018,
+      "target": "y is binary"
+    },
+    {
+      "x1": 4,
+      "y": 1,
+      "support": 0.529,
+      "discovery_risk_difference": -0.033,
+      "target": "is positive class"
+    }
+  ]
+}
+```

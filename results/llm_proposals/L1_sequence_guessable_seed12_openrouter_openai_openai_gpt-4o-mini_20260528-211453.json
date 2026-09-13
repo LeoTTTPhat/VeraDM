@@ -1,0 +1,32 @@
+{
+  "dataset": "L1_sequence_guessable_seed12",
+  "provider": "openrouter/openai",
+  "model": "openai/gpt-4o-mini",
+  "hypotheses": [
+    "IF x0 = 1 THEN y = 1 increases",
+    "IF x1 = 1 THEN y = 1 increases",
+    "IF x2 = 1 THEN y = 1 decreases",
+    "IF x3 = 1 THEN y = 1 increases",
+    "IF x4 = 1 THEN y = 1 increases",
+    "IF x5 > 0 THEN y = 1 increases",
+    "IF x6 = 1 THEN y = 1 decreases",
+    "IF x7 = 1 THEN y = 1 increases",
+    "IF x0 = 1 AND x1 = 1 THEN y = 1 increases",
+    "IF x2 = 1 AND x3 = 1 THEN y = 1 decreases",
+    "IF x4 = 1 AND x5 > 0 THEN y = 1 increases",
+    "IF x6 = 1 AND x7 = 1 THEN y = 1 decreases",
+    "IF x1 > 0 AND x2 <= 1 THEN y = 1 increases",
+    "IF x3 > 0 AND x4 = 1 THEN y = 1 increases",
+    "IF EVENT x5 WITHIN 7 DAYS THEN y = 1 increases",
+    "IF SEQUENCE x2 -> x3 WITHIN 7 DAYS THEN y = 1 increases",
+    "IF TREATMENT x0 = 1 AMONG x1 = 1 THEN y = 1 increases",
+    "IF TREATMENT x3 = 1 AMONG x2 = 1 THEN y = 1 decreases",
+    "IF x1 = 1 AND x4 = 1 THEN y = 1 increases",
+    "IF x0 = 1 AND x6 = 1 THEN y = 1 decreases",
+    "IF x5 > 0 AND x7 = 1 THEN y = 1 increases",
+    "IF x2 = 1 AND x5 > 0 THEN y = 1 decreases",
+    "IF x3 = 1 AND x6 = 1 THEN y = 1 increases",
+    "IF x4 = 1 AND x1 > 0 THEN y = 1 decreases",
+    "IF EVENT x6 WITHIN 30 DAYS THEN y = 1 increases"
+  ]
+}

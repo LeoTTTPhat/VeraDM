@@ -1,0 +1,39 @@
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+import numpy as np
+import json
+
+# Load the dataset
+df = pd.read_csv('adult_income.csv')
+
+# Convert categorical variables to numerical values
+le = LabelEncoder()
+df['education'] = le.fit_transform(df['education'])
+df['workclass'] = le.fit_transform(df['workclass'])
+df['marital-status'] = le.fit_transform(df['marital-status'])
+df['occupation'] = le.fit_transform(df['occupation'])
+df['race'] = le.fit_transform(df['race'])
+df['sex'] = le.fit_transform(df['sex'])
+df['native-country'] = le.fit_transform(df['native-country'])
+
+# Define the feature IDs
+feature_ids = ['age', 'education', 'hours-per-week', 'capital-gain', 'capital-loss', 
+               'private-work-class', 'marital-status', 'occupation', 'sex', 
+               'native-country']
+
+# Create hypotheses based on the dataset
+hypotheses = []
+for i in range(len(feature_ids)):
+    for j in range(i+1, len(feature_ids)):
+        # x<id> = 1 increases
+        hypothesis = f"IF {feature_ids[i]} = 1 THEN y = 1 increases"
+        hypotheses.append(hypothesis)
+        
+        # x<id> > <number> increases
+        threshold = df[feature_ids[j]].quantile(0.75) if feature_ids[j] != 'age' else np.inf
+        hypothesis = f"IF {feature_ids[i]} > {threshold} THEN y = 1 increases"
+        hypotheses.append(hypothesis)
+        
+        # x<id> <= <number> decreases
+       

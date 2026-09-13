@@ -1,0 +1,13 @@
+item_id,correct_action
+bank_01,act
+bank_02,act
+bank_03,do_not_act
+bank_04,do_not_act
+bike_05,act
+bike_06,act
+bike_07,do_not_act
+bike_08,do_not_act
+healthcare_09,act
+healthcare_10,act
+healthcare_11,do_not_act
+healthcare_12,do_not_act

@@ -1,0 +1,601 @@
+seed,regime,description,method,accepted,false_accept,true_accept,validation_effect,heldout_effect,matched_effect,decisive_gate
+0,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1658408478076248,0.18269219139199147,0.0019473723164605149,counterfactual
+0,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.16254534973712875,0.17002451419297163,-0.004457791154389136,counterfactual
+0,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21310192094797106,0.012380204596113751,0.01931184435814324,heldout
+0,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20822539981247437,0.02611229649064458,0.015054160978369039,heldout
+0,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16285041858431779,0.16326182818419976,0.12553233785811052,none
+0,true_stable,stable after matching,VeraDM,1,0,1,0.15641262650245352,0.17523807294592728,0.13103963229282192,none
+1,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1782122926163639,0.18025871365112986,0.005069806922151759,counterfactual
+1,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1934933274781545,0.14574152739613305,-0.0023676265710289206,counterfactual
+1,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20651025456205233,-0.004359249289436467,0.009342949855661382,heldout
+1,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.22105135825273736,0.007362756148220291,0.02347779844283182,heldout
+1,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15510005964011023,0.14893345776089642,0.13334331216071052,none
+1,true_stable,stable after matching,VeraDM,1,0,1,0.15465553195607787,0.14373858775792306,0.1350703777732241,none
+2,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18173991350767038,0.15670650762768773,0.011516207748769004,counterfactual
+2,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.19279908053238776,0.17404297574852806,0.012780313186870684,counterfactual
+2,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20205761814213402,0.0017183468772989357,0.026423034914144404,heldout
+2,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20888590356751918,0.008234981229454534,0.016328504228628964,heldout
+2,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15618797559077227,0.15415140183817624,0.1438652211878783,none
+2,true_stable,stable after matching,VeraDM,1,0,1,0.1520281560888188,0.1695146693341894,0.12181057115337707,none
+3,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.17040421862566002,0.1728210301952806,0.0006092903887528827,counterfactual
+3,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.19437264900447843,0.16159003677273642,0.006150767640354852,counterfactual
+3,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.18749045723257846,0.014411066271854915,0.018706200726308412,heldout
+3,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21542812060410296,0.00733169079251148,0.02427169653465247,heldout
+3,true_stable,stable after matching,StableEnv-BH,1,0,1,0.17995072974519438,0.14869722045266504,0.12697209183936536,none
+3,true_stable,stable after matching,VeraDM,1,0,1,0.15725765968361208,0.12572608997577633,0.1264105549710823,none
+4,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1721510120583355,0.1733874359502404,-0.011781904139669126,counterfactual
+4,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17155294605615498,0.18519215280606743,0.0017797742654645221,counterfactual
+4,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2079945915814059,0.005222430463613983,0.01594087893643193,heldout
+4,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.2070348532992805,0.0074676156675385266,0.031061878037237867,heldout
+4,true_stable,stable after matching,StableEnv-BH,1,0,1,0.17709559777744263,0.14994438494785614,0.14624845512677845,none
+4,true_stable,stable after matching,VeraDM,1,0,1,0.1607206121834276,0.15722991582479037,0.13434426322802365,none
+5,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18242869949499108,0.16797209742347752,0.0031446940628464225,counterfactual
+5,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18348310739859883,0.162509024878592,0.007907103940059806,counterfactual
+5,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21888774942294478,0.010274130585032563,0.03434611993335942,heldout
+5,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20994121988299122,0.02061609477879883,0.022874601578004795,heldout
+5,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15080817633742422,0.14371298029540275,0.12341123145986602,none
+5,true_stable,stable after matching,VeraDM,1,0,1,0.15832294110977918,0.1502695932477584,0.1318724743209632,none
+6,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1802426811721164,0.15808850726240634,-0.00042451310641362813,counterfactual
+6,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17681726771484357,0.16835999602479393,-0.010327806116562966,counterfactual
+6,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21320061529020115,0.009235138037099013,0.017162358884906408,heldout
+6,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.19921835591624276,0.005686755540668971,0.019620630050443445,heldout
+6,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1616591304639952,0.13981501299669885,0.14321631694815737,none
+6,true_stable,stable after matching,VeraDM,1,0,1,0.15314664434654227,0.13478149966633532,0.13864342791018883,none
+7,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.15642576832988234,0.1534540731931987,-0.004858207089300706,counterfactual
+7,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18727587398674303,0.17434116576359662,-0.0041585292286944,counterfactual
+7,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21029381785567935,0.01342151589815993,0.027052707476193386,heldout
+7,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21314343421325227,-0.006278756831667712,0.018399889444225544,heldout
+7,true_stable,stable after matching,StableEnv-BH,1,0,1,0.17208485477482435,0.14536740070960885,0.1343740024476362,none
+7,true_stable,stable after matching,VeraDM,1,0,1,0.1564372002070021,0.15997600590547348,0.12837421323966192,none
+8,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.17795507603944102,0.1698671361153569,-0.009147265857333867,counterfactual
+8,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.16597059547307516,0.17291955772092138,-0.011143434837650687,counterfactual
+8,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.22094009726522323,0.005678077110035804,0.01995201979159639,heldout
+8,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.22366342443430481,0.0018769606727542035,0.014605696699130253,heldout
+8,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16898771207462168,0.143982607207047,0.11986593446285748,none
+8,true_stable,stable after matching,VeraDM,1,0,1,0.15674254145041555,0.16053592833224745,0.14061013257051294,none
+9,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.16714828354088193,0.1582403924059363,0.002955737565553719,counterfactual
+9,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17492725117353478,0.16124258526151355,-0.011245069372921043,counterfactual
+9,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21034302710338454,0.02161156886157588,0.016439727138984422,heldout
+9,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.2082175060049893,0.019416617341154796,0.016119785818103187,heldout
+9,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1737289456413918,0.14762902503335767,0.1271633163354448,none
+9,true_stable,stable after matching,VeraDM,1,0,1,0.1561056361470129,0.14895979339431914,0.13989684555533363,none
+10,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18517603204423988,0.16459646873464365,0.0107264126592717,counterfactual
+10,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.19130605311824772,0.16746591951622516,0.002216825337770577,counterfactual
+10,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2026922974836771,0.007698148010419126,0.024723246000857825,heldout
+10,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.19275130141798924,0.01018868929766431,0.032346008262802275,heldout
+10,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16360023013915395,0.1495437600428908,0.13741135597974388,none
+10,true_stable,stable after matching,VeraDM,1,0,1,0.18171235154690127,0.13887680490704554,0.1363655121946358,none
+11,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1789142319062058,0.17097789145465656,-0.006135113941743896,counterfactual
+11,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.16063249166109847,0.16934064924821002,-0.002748265647536002,counterfactual
+11,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.19536913859541263,0.01671122538977018,0.017010239002351685,heldout
+11,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.19775478188402948,0.01610002801455767,0.03407436777117834,heldout
+11,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15827102629610515,0.15380467759208777,0.13741312191654273,none
+11,true_stable,stable after matching,VeraDM,1,0,1,0.15457699713762926,0.15938351819732205,0.11684324148036473,none
+12,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1806739221948442,0.1777592668180731,-0.001388145368467471,counterfactual
+12,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17647998852696406,0.1591749166689236,-0.004387724722005867,counterfactual
+12,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20811757287315452,-0.01128509000568763,0.019093426849483994,heldout
+12,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.1932537977590832,0.006608941467247441,0.019928306075368902,heldout
+12,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15055240592147073,0.14228050165528144,0.14400385945174904,none
+12,true_stable,stable after matching,VeraDM,1,0,1,0.15970098788732146,0.1528158184240044,0.13026495373147232,none
+13,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18628799448870512,0.175830726332297,-0.009610040978152294,counterfactual
+13,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1705305529223493,0.1832323892029089,-0.006898873142671393,counterfactual
+13,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.1975046993273713,0.00826976136286188,0.022663675618294445,heldout
+13,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20159691359392004,0.031159612936339322,0.020636604332646708,heldout
+13,true_stable,stable after matching,StableEnv-BH,1,0,1,0.17334405455106233,0.156248055757497,0.12698745527820576,none
+13,true_stable,stable after matching,VeraDM,1,0,1,0.15407251038470135,0.14379096754377402,0.12956556684617299,none
+14,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.16936793257917435,0.16133919033010047,0.009691203832587406,counterfactual
+14,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17141393933041502,0.18766879784243104,0.001268696400854868,counterfactual
+14,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2115612573163886,0.004596925442939485,0.020434013622728425,heldout
+14,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20702196736878112,0.015809934831067025,0.014107145485117505,heldout
+14,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1591894734166003,0.16320451626848392,0.1263545658952155,none
+14,true_stable,stable after matching,VeraDM,1,0,1,0.16256807461288905,0.14570717469925215,0.13480911713350824,none
+15,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.16986855704183493,0.1702655200078671,0.003980006590082797,counterfactual
+15,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18531825467919505,0.16692898065766767,-0.001802515757027273,counterfactual
+15,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.210411854168001,0.021159643153924178,0.018166233845404292,heldout
+15,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.18512054787945448,0.036834591022743654,0.013912915000680096,heldout
+15,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16594338472265302,0.14888827389757012,0.13275283096762053,none
+15,true_stable,stable after matching,VeraDM,1,0,1,0.15627232678078348,0.15064597274694172,0.13777642730488504,none
+16,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.19680155449997,0.15832874729581278,0.01311217130437059,counterfactual
+16,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1776964044889348,0.18375752988546745,-0.0013339354059999555,counterfactual
+16,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2428021404173174,0.009968100735066097,0.007243097767192756,heldout
+16,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.19028828849679294,0.014234269644618106,0.011056352856999197,heldout
+16,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1742132869590466,0.14836893942736964,0.14240927577866308,none
+16,true_stable,stable after matching,VeraDM,1,0,1,0.14584989452001534,0.17039502935811265,0.12160340180433947,none
+17,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.17756876711388048,0.16716603068337663,0.012590172703606621,counterfactual
+17,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17416865831726966,0.1698519464639248,0.010006499536522152,counterfactual
+17,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21443853231729312,0.007953285728329972,0.026512443796068996,heldout
+17,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.2101321967099624,0.013112869425260413,0.019660473665457378,heldout
+17,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16285976701497337,0.14980249656005593,0.1378347154533762,none
+17,true_stable,stable after matching,VeraDM,1,0,1,0.1536866445231502,0.15556990183995603,0.13347464447730506,none
+18,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.15680203345405705,0.16181370281217564,0.007060208025490849,counterfactual
+18,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17874045489073004,0.16533437234952775,-0.007967613412919945,counterfactual
+18,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21303964428661054,0.0008140995125057934,0.024307157259075996,heldout
+18,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20768775685203267,0.00852168265584204,0.023833567028561597,heldout
+18,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16960700093305425,0.1628482171563484,0.12310062583425138,none
+18,true_stable,stable after matching,VeraDM,1,0,1,0.16403442842586471,0.15519607944561933,0.13333919943524356,none
+19,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1623003746920093,0.16893366870427798,0.012774267943651427,counterfactual
+19,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.165449893200739,0.1473242808898486,-0.0004390875865097029,counterfactual
+19,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2248441384130645,0.02970275799504965,0.03071084217068592,heldout
+19,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.22914121436216106,0.020613108014101135,0.0026324678248613106,heldout
+19,true_stable,stable after matching,StableEnv-BH,1,0,1,0.14492835399067341,0.14987949880930443,0.13705756787987494,none
+19,true_stable,stable after matching,VeraDM,1,0,1,0.1583783157713309,0.14249637710775676,0.12611259737485864,none
+20,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18750519885055944,0.17642218651747366,-0.008688270100496734,counterfactual
+20,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1931508257876719,0.17083280195752037,0.001865039106965309,counterfactual
+20,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2209293813999131,0.011506637224266432,0.020042485234954725,heldout
+20,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20334696836457228,-0.0036077668502202224,0.024892593643832044,heldout
+20,true_stable,stable after matching,StableEnv-BH,1,0,1,0.14856803277413533,0.13061897979164538,0.13544673199728519,none
+20,true_stable,stable after matching,VeraDM,1,0,1,0.15727684797603853,0.147755978501149,0.1311283651048077,none
+21,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18872522049194707,0.17584605233683104,0.00019926349205410138,counterfactual
+21,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17195948354930338,0.16056145781382997,0.006971393994093749,counterfactual
+21,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21885086012981414,0.011010722706788099,0.027850709926341415,heldout
+21,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.2147590437941748,0.02023261654223319,0.019067619911485055,heldout
+21,true_stable,stable after matching,StableEnv-BH,1,0,1,0.14633312554919709,0.15936648089643005,0.14659283672357082,none
+21,true_stable,stable after matching,VeraDM,1,0,1,0.16765301160791152,0.1423778836367547,0.1394906519533277,none
+22,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18753349534725983,0.15174094940075405,-0.009054858079523281,counterfactual
+22,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.19055352668042655,0.17382778554673406,0.00016695775246824024,counterfactual
+22,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.19700220429821216,-0.0010803830169372423,0.02157042523734943,heldout
+22,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21227421101289481,0.0028152364926458265,0.024651617517407375,heldout
+22,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16727569735290587,0.14316185215765784,0.11841609446878262,none
+22,true_stable,stable after matching,VeraDM,1,0,1,0.16371923622464282,0.14814265157332585,0.13195072441535602,none
+23,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18054108481060938,0.17641345183251703,-0.004150257870786638,counterfactual
+23,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18494543230251537,0.17245857375417495,-0.007220769860531354,counterfactual
+23,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2237675551060315,0.015606956294109225,0.015776107690542475,heldout
+23,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21334099005435728,-0.005820406803319711,0.033086846297147116,heldout
+23,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1714078494106244,0.14999645388772614,0.14010486803871516,none
+23,true_stable,stable after matching,VeraDM,1,0,1,0.17150088332268149,0.14128157344878486,0.13244814350723005,none
+24,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18092725161432904,0.16114812693142064,0.007838340708804098,counterfactual
+24,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1782544040286727,0.15291693296609085,0.005161369282396556,counterfactual
+24,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20115316310994902,-0.00431674334322373,0.011891285976059672,heldout
+24,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.1964722627976045,0.021990364222338504,0.020553074196178342,heldout
+24,true_stable,stable after matching,StableEnv-BH,1,0,1,0.17016543650506122,0.1569364674252629,0.12290897504516177,none
+24,true_stable,stable after matching,VeraDM,1,0,1,0.1669989352518188,0.15171579586171646,0.12550612186967824,none
+25,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1829148603042992,0.16283289458559233,-0.00584896201040318,counterfactual
+25,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17696172236055288,0.17924510481895925,0.012139686719972365,counterfactual
+25,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2223754813366572,0.020547151716760068,0.027576451161254317,heldout
+25,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20473469391142635,0.014288606801642015,0.015795449889935274,heldout
+25,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16343878546253893,0.14743001646536616,0.13134514103599396,none
+25,true_stable,stable after matching,VeraDM,1,0,1,0.15134167343940705,0.14131659189280507,0.13753028133619552,none
+26,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1871084410407438,0.18446449462009276,0.0025662094083957116,counterfactual
+26,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18872561648688915,0.16358483748185298,0.010743033126163749,counterfactual
+26,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.22456157420649936,0.015921609542327065,-0.001008541849096132,heldout
+26,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21693424864427027,0.011372005017428546,0.0282985933724141,heldout
+26,true_stable,stable after matching,StableEnv-BH,1,0,1,0.14890281490889723,0.15361544169940486,0.1248632618972156,none
+26,true_stable,stable after matching,VeraDM,1,0,1,0.15059096865760535,0.14500003424205377,0.12336565687215167,none
+27,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.16706251434048786,0.17515127271481618,-0.004665671953713505,counterfactual
+27,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17924971512262416,0.16696438482606,0.0027999440870152548,counterfactual
+27,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.18784713641337453,0.014172619985632191,0.01709518158531419,heldout
+27,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21345272594928413,0.017266223402857404,0.0269632247770621,heldout
+27,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15798610029175678,0.15975064549071327,0.13995541362078656,none
+27,true_stable,stable after matching,VeraDM,1,0,1,0.16454402281516925,0.16974847538014923,0.12726434687545357,none
+28,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.196414588295945,0.17367694307473946,-0.002258741067784753,counterfactual
+28,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.19153938653026797,0.16406677798153385,0.001696003183218978,counterfactual
+28,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20564492275245155,0.020041997339350706,-8.736396409365216e-05,heldout
+28,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21489037419538248,0.013203336158402388,0.006320515179631649,heldout
+28,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1590372729537154,0.14644084941799212,0.12868038076439497,none
+28,true_stable,stable after matching,VeraDM,1,0,1,0.18510618516194402,0.15975927459026623,0.1254049533702055,none
+29,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.17721048976143872,0.17311868689850862,-0.00216303037680786,counterfactual
+29,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17522246725951798,0.17032179611839524,-0.007315426347901043,counterfactual
+29,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21300732075916265,0.019289291784721406,0.02153865143742567,heldout
+29,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.2133539444297034,0.009060062819256575,0.023258857956975704,heldout
+29,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15959625445878972,0.15070410970962217,0.1179989865394206,none
+29,true_stable,stable after matching,VeraDM,1,0,1,0.15736458966265365,0.16064178536246915,0.12767002293952706,none
+30,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.16231818024793357,0.17549899974123867,-0.0046031027903614035,counterfactual
+30,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1817044209481383,0.1805037016331954,-0.004144632527054603,counterfactual
+30,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21061939752473366,0.02036187450848342,0.03282644053146412,heldout
+30,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20184457403825293,-0.012865142397123658,0.03041169064878218,heldout
+30,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16808393660906673,0.145512799138366,0.12012919269087517,none
+30,true_stable,stable after matching,VeraDM,1,0,1,0.16401622699713717,0.14659465428175597,0.14822654323897722,none
+31,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1765833387396347,0.18794350474842222,0.014856437066195062,counterfactual
+31,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1893383602399243,0.17350585523842224,-0.002004877505328613,counterfactual
+31,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21761516359264055,0.016334415029998953,0.03547808303368141,heldout
+31,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.1925015610408959,-0.004374579605061707,0.01790534524274914,heldout
+31,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1727491027121822,0.15795669867915824,0.1325207869215532,none
+31,true_stable,stable after matching,VeraDM,1,0,1,0.16977729101019529,0.16169905950049912,0.14232727588237032,none
+32,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1878382734685666,0.17092999099743036,-0.005288236435666429,counterfactual
+32,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.180485052571639,0.1785616542161979,0.0017324202388432565,counterfactual
+32,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21696756130584166,0.018354672581672192,0.01241536381798751,heldout
+32,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21722463434713962,0.023570508471714186,0.01425225949302084,heldout
+32,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15947270261340254,0.13286449957731156,0.11193174655403194,none
+32,true_stable,stable after matching,VeraDM,1,0,1,0.16422796548460233,0.15236302137481011,0.12597225008974508,none
+33,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18065037643867504,0.17403521409730716,0.011475342886013616,counterfactual
+33,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1847138377420181,0.16185866516408948,0.009445105225093937,counterfactual
+33,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.19634507961871053,0.017155749724077175,0.012117653982142661,heldout
+33,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21101591279207937,0.01153451921172366,0.0026032558325480327,heldout
+33,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15513533626194384,0.1386673284212056,0.14593574667344236,none
+33,true_stable,stable after matching,VeraDM,1,0,1,0.15233669690827226,0.12572864876676298,0.11993554950730469,none
+34,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18089601196852403,0.18011070026016945,-0.0009147874461018667,counterfactual
+34,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1736817687381385,0.15669588016402303,0.007970310905714156,counterfactual
+34,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.23259212254312345,-0.00812982289001262,0.015509666148481968,heldout
+34,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.1987274146863146,0.015030223399288997,0.00943668486166839,heldout
+34,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15658760778399433,0.14603932581771517,0.12269625973703532,none
+34,true_stable,stable after matching,VeraDM,1,0,1,0.15295474019415534,0.14984982518619513,0.13547981128791184,none
+35,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.174317138107767,0.17191009607402147,0.010077282660267589,counterfactual
+35,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1862205897662573,0.16169474039431364,0.008690855690143768,counterfactual
+35,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20509787946414004,-0.0012416545150445747,0.024850691219341234,heldout
+35,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20871281896503108,0.00837516302312806,0.020662980065852578,heldout
+35,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16614518098027753,0.13780587647305875,0.1369119865663319,none
+35,true_stable,stable after matching,VeraDM,1,0,1,0.15080539436988044,0.14857813568301867,0.13717552704075386,none
+36,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.15867448786608773,0.1631326587842602,0.012522630280918429,counterfactual
+36,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1954717535452576,0.16866923551073187,-0.004732583423669649,counterfactual
+36,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21217239757449619,0.013543877485672564,0.012100111030030617,heldout
+36,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20866780226988815,0.004075974049791109,0.02100365036715309,heldout
+36,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16280058934904343,0.1490516129202853,0.12884905306812788,none
+36,true_stable,stable after matching,VeraDM,1,0,1,0.1625898125490892,0.14998193836405546,0.12132659898060257,none
+37,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.16323563682387432,0.18025329436010207,0.0077333081039399785,counterfactual
+37,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17408500623856324,0.1476280531839256,-0.0008188917393597646,counterfactual
+37,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.19951862696197648,-0.01988020619599664,0.029786671445156974,heldout
+37,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20930324863227612,0.010404241401955361,0.008987428327217724,heldout
+37,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1399739973703709,0.15327594120621185,0.11946673427966542,none
+37,true_stable,stable after matching,VeraDM,1,0,1,0.14816133428184752,0.15876547622282805,0.13872851542069345,none
+38,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18351975949210317,0.13514481450172477,-0.0016711449553554196,counterfactual
+38,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1862965256225266,0.16678121588002748,0.002156142222545224,counterfactual
+38,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2139547366141493,-0.00121832215912745,0.014943102548438517,heldout
+38,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20939190123666754,0.01901968879964284,0.011249645735355251,heldout
+38,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15339743751726925,0.17108969986345884,0.1275678858964955,none
+38,true_stable,stable after matching,VeraDM,1,0,1,0.15864394655846598,0.17250590116871328,0.13036331446456229,none
+39,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18782151854461698,0.1891146521829923,-0.006572042021816338,counterfactual
+39,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.15985221493298477,0.1654377281378732,0.0008025336216483106,counterfactual
+39,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.19686826745959035,0.0130725444785086,0.012670211335828241,heldout
+39,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.2061125884857979,0.012953510904943951,0.023443885776840104,heldout
+39,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15683791038161593,0.1335537976555582,0.13118690733234328,none
+39,true_stable,stable after matching,VeraDM,1,0,1,0.16903681562359482,0.14896934885897395,0.11989636811937374,none
+40,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18504481206277906,0.18141458859878273,0.010059358306986203,counterfactual
+40,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18064478823361546,0.1713095662722706,-0.003180509490516466,counterfactual
+40,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2154315023541576,0.025108187318646138,0.016884394537577705,heldout
+40,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.19169193689283,0.007381183489226761,0.018956591231185625,heldout
+40,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15214097431863366,0.15317548177133475,0.14011442705549743,none
+40,true_stable,stable after matching,VeraDM,1,0,1,0.16520819121206523,0.16217390665273237,0.1203542192629926,none
+41,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.17952146191473686,0.1497172998168571,0.006149541026899053,counterfactual
+41,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17957596407833104,0.18097385408148042,0.0009104134923985012,counterfactual
+41,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21108895849841613,0.011833747159090701,0.014473676420969542,heldout
+41,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20642060967338371,0.013016181591433815,0.025484706557026972,heldout
+41,true_stable,stable after matching,StableEnv-BH,1,0,1,0.14630046278083203,0.15086099575420006,0.11917628140478914,none
+41,true_stable,stable after matching,VeraDM,1,0,1,0.16206133403700673,0.14645691646394357,0.1278354613374073,none
+42,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18395695445003898,0.1610972857662532,0.0006098132161206627,counterfactual
+42,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.19489072303056265,0.16139295784399327,0.005862641042636582,counterfactual
+42,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20654293151946085,0.012233787234580764,0.021063596241706846,heldout
+42,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.19929492567525697,0.016911550518226494,0.03617030157840688,heldout
+42,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16261344404077038,0.14237286552491252,0.12955198278892227,none
+42,true_stable,stable after matching,VeraDM,1,0,1,0.15449535632111513,0.1508539390099538,0.1398114537586298,none
+43,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1796916722316206,0.18403454982371587,0.008714608736360681,counterfactual
+43,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.16901528703640942,0.1665629711197965,6.305503822755847e-05,counterfactual
+43,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2203175729758879,0.015141067577463349,0.018789536120605632,heldout
+43,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.23080873315082104,0.014756916805603811,0.022477590166808486,heldout
+43,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15313106188463146,0.14693967363155508,0.1218914857668239,none
+43,true_stable,stable after matching,VeraDM,1,0,1,0.1476711771094532,0.1546040432307985,0.12546672116100505,none
+44,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18840043449367552,0.17909710086315478,0.0032963235913445695,counterfactual
+44,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1763879106451548,0.1887279950715841,0.0005697871097147727,counterfactual
+44,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20302319288430531,0.012465909702905212,0.03593066175910273,heldout
+44,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.2122626576082238,0.02656687171761403,0.013600363739442574,heldout
+44,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16357048677697658,0.15989944947554377,0.13502768401707924,none
+44,true_stable,stable after matching,VeraDM,1,0,1,0.17817965580067738,0.1424238868393695,0.12975189732669032,none
+45,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.17969908541750468,0.166058177048831,-0.0050502722559671144,counterfactual
+45,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17680574282861206,0.17991250656728935,-0.0062655477128170465,counterfactual
+45,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2126275209807995,0.01605780847551714,0.02022051899900173,heldout
+45,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.2158366692044235,0.0067736154087296736,0.008112347194396961,heldout
+45,true_stable,stable after matching,StableEnv-BH,1,0,1,0.155207968524492,0.15176817354777133,0.12988685959972385,none
+45,true_stable,stable after matching,VeraDM,1,0,1,0.16625678916858075,0.14464887335857027,0.11820806036657401,none
+46,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.16728762261028307,0.1618358925434261,-0.0007838173037401443,counterfactual
+46,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1827473774233108,0.1747831928716209,0.0053108931352036735,counterfactual
+46,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2124127167204166,0.001880432152161899,0.015877987783815273,heldout
+46,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20556142296660485,-1.3377576428994994e-05,0.016549110609737357,heldout
+46,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16687814188105918,0.14722082777544712,0.12653558711973248,none
+46,true_stable,stable after matching,VeraDM,1,0,1,0.15901397008660684,0.15502762610326573,0.1375930031133939,none
+47,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18824429925076747,0.17114454028286494,-0.009390803803380839,counterfactual
+47,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.16754439639603247,0.16734461880398088,-0.0034233826403548924,counterfactual
+47,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.1964737456706281,0.018610945683373067,0.01580403820987093,heldout
+47,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20987738977501016,0.008997352896353568,0.024609626442730383,heldout
+47,true_stable,stable after matching,StableEnv-BH,1,0,1,0.13916365907910405,0.1335090824640451,0.13699850804173183,none
+47,true_stable,stable after matching,VeraDM,1,0,1,0.15791461962318662,0.15030054095549536,0.12668870021313602,none
+48,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1841807785632688,0.1692372387622937,0.013568669622448052,counterfactual
+48,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.16144590749161647,0.17159237619801493,-0.016115168324550854,counterfactual
+48,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21307419071926534,0.013629908611596978,0.031699916019021904,heldout
+48,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.2041712774524363,0.031927106049472145,0.008836481578446038,heldout
+48,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16695957420360785,0.15269907273558705,0.1280721303360471,none
+48,true_stable,stable after matching,VeraDM,1,0,1,0.1637380112727114,0.13662859581146805,0.11917218456877701,none
+49,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1828092254401032,0.1691768031752033,0.007089927953872352,counterfactual
+49,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1777445326523329,0.1696965738004477,0.001774341181955585,counterfactual
+49,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2003970159502391,0.014924711354705574,0.029137456729668658,heldout
+49,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20509115611025266,0.013653684427073303,0.023984717010333903,heldout
+49,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16899745434895044,0.1566203549555214,0.13045295480197916,none
+49,true_stable,stable after matching,VeraDM,1,0,1,0.15949660430220525,0.16278618565286262,0.1296037412077525,none
+50,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1812142739028571,0.1667054207714157,-0.004662637774535031,counterfactual
+50,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18915871099831416,0.1850508048590122,0.003511632071910674,counterfactual
+50,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20250746714074191,0.02304201115716086,0.014814087767977222,heldout
+50,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.2168166148328326,-0.007866894929202643,0.029728955439463883,heldout
+50,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15917919524981336,0.1372586378553604,0.1500554664746181,none
+50,true_stable,stable after matching,VeraDM,1,0,1,0.1806927204987273,0.13286344839035485,0.1323101322887068,none
+51,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1815804197748251,0.17308834690633446,-0.007078079211450823,counterfactual
+51,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17150425571861144,0.14942552598175396,-0.008212485917070198,counterfactual
+51,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2079531032538539,0.00031033911555208155,0.016590020631637673,heldout
+51,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20548986273403957,0.015216098051569708,0.01016569212684368,heldout
+51,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1760978722219759,0.15156487721137854,0.140616220676256,none
+51,true_stable,stable after matching,VeraDM,1,0,1,0.16377469447533513,0.13444503177312392,0.12711336503506365,none
+52,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.17469946759113883,0.14990930772503241,0.008389011848603562,counterfactual
+52,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.16044480907359723,0.16935634828507468,-0.007550991475070358,counterfactual
+52,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20928307283703743,0.011015901674434773,0.018967786623514837,heldout
+52,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.22167450365655317,0.010536857216666626,0.02148832718901285,heldout
+52,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1554753308581508,0.14171520161136952,0.13888931506570315,none
+52,true_stable,stable after matching,VeraDM,1,0,1,0.16425737609758537,0.15734249073563392,0.12795266605708328,none
+53,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.17104611332061656,0.16525076076101783,-0.01247321731293916,counterfactual
+53,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.15435051970089217,0.17761020563640165,0.005785856352064238,counterfactual
+53,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20368246506065402,0.015310042688727895,0.0067408977199927885,heldout
+53,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21718105760518575,0.011367181835975543,0.01910914508136412,heldout
+53,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1552535342115165,0.1475585128550731,0.13229982737252993,none
+53,true_stable,stable after matching,VeraDM,1,0,1,0.1536858691852935,0.1349293152710615,0.14409810372549137,none
+54,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18930543243343373,0.17015008498503417,-0.01172719089099377,counterfactual
+54,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18535230960388704,0.17525279635526325,-0.001619011685680999,counterfactual
+54,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20051969354520452,0.0029337695895621197,0.014490685005412346,heldout
+54,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21065368267231047,-0.002581351442797957,0.026892261796646354,heldout
+54,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1799690420410996,0.15670219431706822,0.1304868832024678,none
+54,true_stable,stable after matching,VeraDM,1,0,1,0.161951812351282,0.14734310784196736,0.130558491983605,none
+55,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18184740854288367,0.18249202633936082,-0.004751855548784243,counterfactual
+55,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1763267816617759,0.17646779281916006,-0.007900342462978239,counterfactual
+55,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2060345519214742,0.01063041271053983,0.007394133709425986,heldout
+55,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21287048487714086,0.019110047418846046,0.03536155843079741,heldout
+55,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1584215335969988,0.1625044871268304,0.12719903239466565,none
+55,true_stable,stable after matching,VeraDM,1,0,1,0.15632154789789704,0.13320322191691936,0.1299594711012335,none
+56,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.181396807986612,0.18601911840510313,-0.0005326935313052904,counterfactual
+56,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.16587538981196082,0.1663399439362558,-0.021939397534027287,counterfactual
+56,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2245451233197697,-0.005062572465024142,0.025253978383308298,heldout
+56,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.23601680451231694,-0.001156653140781146,0.017403269603162914,heldout
+56,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16937801957774012,0.15625677393988524,0.1382837442253807,none
+56,true_stable,stable after matching,VeraDM,1,0,1,0.14794651075610546,0.14159805687431287,0.1229155359014063,none
+57,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.17844174308158284,0.183266607558078,0.0033176798781899674,counterfactual
+57,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18189887636817403,0.1764588795152985,-0.0009671539298830216,counterfactual
+57,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21549164058774206,0.02301435109901835,0.021940123200318,heldout
+57,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.22190619540426726,0.00022993182569744364,0.0006395916561871343,heldout
+57,true_stable,stable after matching,StableEnv-BH,1,0,1,0.17044913153958946,0.15079826240449323,0.12930311626516947,none
+57,true_stable,stable after matching,VeraDM,1,0,1,0.15005604611676635,0.15038740350699217,0.1296606271810201,none
+58,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1837191910514635,0.16297098959674275,0.0014251588297049338,counterfactual
+58,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.16847415736300464,0.17420337490109844,0.005138230629445745,counterfactual
+58,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20620034331407666,0.005769685947709115,0.025091311040796843,heldout
+58,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20153745264059894,0.028429761486225086,0.03199400454052043,heldout
+58,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16479710702319336,0.12839478470453902,0.12628271545147102,none
+58,true_stable,stable after matching,VeraDM,1,0,1,0.16087825980970855,0.1411374570611611,0.1292631110526061,none
+59,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1735958880783611,0.14953640638217425,0.010962465335693783,counterfactual
+59,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17831060331388612,0.17258145691360408,-0.018613333537630776,counterfactual
+59,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20426490622048796,0.010223107277743452,0.011585191859739559,heldout
+59,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20401353777745493,0.01898233265440364,0.030086986603473,heldout
+59,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1551370505455138,0.14457398977478003,0.129851264306966,none
+59,true_stable,stable after matching,VeraDM,1,0,1,0.15773595728711173,0.1344341792511911,0.11893976536798326,none
+60,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.19478917644220017,0.16806228504999388,0.007883684581383252,counterfactual
+60,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18513393470957534,0.16831912890808148,-0.0052070488635854225,counterfactual
+60,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.1820722073456238,-0.006224232934392325,0.026778188128366593,heldout
+60,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20630336901591503,-0.004137698586555398,0.021388407298604185,heldout
+60,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16339324952934176,0.14913537237158533,0.1251910629477475,none
+60,true_stable,stable after matching,VeraDM,1,0,1,0.16309162782873346,0.14966790844529365,0.13653439519586702,none
+61,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.16879853084335852,0.1696175576139675,0.006311518047187222,counterfactual
+61,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18330587108951257,0.16484322190377193,-0.005527354961011913,counterfactual
+61,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20968908033620923,0.027172211528304575,0.012122439529534491,heldout
+61,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.2030006289712215,0.005363425058837896,0.021905157017988286,heldout
+61,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15965554116225678,0.17237782318851644,0.13729444486979692,none
+61,true_stable,stable after matching,VeraDM,1,0,1,0.16225827927861866,0.13605893781026196,0.1314785360481739,none
+62,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1822529639485379,0.14678891076281533,0.005936825180679575,counterfactual
+62,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17310614514941725,0.1823158697609224,0.003876918233242039,counterfactual
+62,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.22303417920783836,0.0006876784048542688,0.029754348952721103,heldout
+62,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21721836677323628,0.00013032201673274235,0.021612129922251304,heldout
+62,true_stable,stable after matching,StableEnv-BH,1,0,1,0.17141934806439768,0.15411575991316762,0.1353990714287516,none
+62,true_stable,stable after matching,VeraDM,1,0,1,0.16455387706148658,0.13979749243139497,0.13986546030481198,none
+63,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.17517494857123445,0.1762970739472712,0.0007312057488077332,counterfactual
+63,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.16186615178070055,0.17615030911112262,0.0030169420335927704,counterfactual
+63,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21132349133877137,0.010053108684635803,0.017107498165916255,heldout
+63,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.1853230958166017,-0.0037596995461545053,0.022287409871141004,heldout
+63,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15629199273767735,0.15517287051009784,0.11727697087162424,none
+63,true_stable,stable after matching,VeraDM,1,0,1,0.16071774710257264,0.16631090007177662,0.119036427807175,none
+64,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.17952335991592192,0.1670443591763118,0.012476441020368743,counterfactual
+64,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18139453850203635,0.17862251763845763,0.004580679644155364,counterfactual
+64,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20726784198664908,0.004633084046680863,0.010849408820926897,heldout
+64,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20101218143675492,0.00992612135045551,0.018619739050145342,heldout
+64,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16156707274639998,0.14692033969053406,0.14371079559360614,none
+64,true_stable,stable after matching,VeraDM,1,0,1,0.15908262029726677,0.14580195408487626,0.11831321740947039,none
+65,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18521656842081421,0.17041886391527022,0.008061999850056886,counterfactual
+65,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1570108980207653,0.17782888776431732,-0.01051696918797136,counterfactual
+65,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2004304268219277,0.016804398104382803,0.018845002160477804,heldout
+65,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.2117341245403436,-0.0018369213850250032,0.032124096943727365,heldout
+65,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15301688185987977,0.1553839469308547,0.1385211378164828,none
+65,true_stable,stable after matching,VeraDM,1,0,1,0.18167194723423602,0.1544143897947481,0.11811459652792988,none
+66,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.194264064778417,0.16279373145563725,-0.002907337032473398,counterfactual
+66,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.19655339959096613,0.16741308259853566,-0.0015237603023428416,counterfactual
+66,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.22717036984042033,0.009210263764997907,0.013398255182886065,heldout
+66,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20836673297975514,0.011654966446730256,0.03046867975881607,heldout
+66,true_stable,stable after matching,StableEnv-BH,1,0,1,0.17436523613300162,0.1492116347631336,0.1271546877522026,none
+66,true_stable,stable after matching,VeraDM,1,0,1,0.15763130418416257,0.15011031255474766,0.1276769376835237,none
+67,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18772563659389757,0.17710370294063976,0.0038560650881276108,counterfactual
+67,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17059848078552536,0.15981519695493732,0.0011658663025538058,counterfactual
+67,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21175851927972736,0.018942333122766095,0.020562069307375492,heldout
+67,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.2179497565365549,0.01735286561087639,0.01705181262806524,heldout
+67,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16708120772006738,0.14586765425964845,0.1180909879773469,none
+67,true_stable,stable after matching,VeraDM,1,0,1,0.1701313832491263,0.1439864188482131,0.14168523306643688,none
+68,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.17981728460667093,0.1857959325335994,0.005075706434270527,counterfactual
+68,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17621959335582865,0.17821419109873338,-0.006472902347233577,counterfactual
+68,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2023461889930953,0.01722598097270148,0.022381668985065526,heldout
+68,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21756600020297376,0.03149726116655683,0.012265867025139696,heldout
+68,true_stable,stable after matching,StableEnv-BH,1,0,1,0.14264635031172895,0.14118473857708788,0.12634618039026188,none
+68,true_stable,stable after matching,VeraDM,1,0,1,0.17914715587440128,0.1662093035958182,0.15368031902401003,none
+69,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.15835736147673973,0.1767032510778118,-0.008646043689736838,counterfactual
+69,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18451011737922388,0.16614302847811804,-0.0067379933712647345,counterfactual
+69,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21052643677454555,0.01117408932252207,0.008272235933584922,heldout
+69,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21646874749968478,0.014637670306894435,0.02146030835282345,heldout
+69,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16033842621616834,0.13712048128694354,0.1248176965704995,none
+69,true_stable,stable after matching,VeraDM,1,0,1,0.15814589097521925,0.146274265256705,0.10490729753523044,none
+70,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18183487305853485,0.16835666972219993,0.00743064591979915,counterfactual
+70,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1867699482144882,0.16255877413831818,0.0041260628776173675,counterfactual
+70,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.19940642124334984,0.01018004225186996,0.024741263786702536,heldout
+70,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.2115067795995761,0.016290863414318128,0.020339944805685815,heldout
+70,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1592064390972072,0.1718794825698107,0.12764702245547435,none
+70,true_stable,stable after matching,VeraDM,1,0,1,0.1597426656912674,0.15298416813676435,0.13291191731072874,none
+71,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1746078021829035,0.17561797814674204,-0.008980471600799166,counterfactual
+71,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18436583032285828,0.15981379840476684,0.0016280312958437775,counterfactual
+71,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21300015752995913,0.0025880156107019334,0.026677861638732474,heldout
+71,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.214390178927045,0.003113876551395965,0.01976702677790178,heldout
+71,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1502435863691148,0.15188848880328393,0.13727214534460438,none
+71,true_stable,stable after matching,VeraDM,1,0,1,0.17172751867247754,0.15257840128927885,0.14093224730725284,none
+72,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.19439921165602805,0.18114279917521048,0.005272701001653846,counterfactual
+72,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.16642438894334943,0.16884487405093762,0.0080136815365084,counterfactual
+72,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20111680779382515,0.006459421598497866,0.009423351395039548,heldout
+72,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21242184787746804,0.030121210476775573,0.019990203609231125,heldout
+72,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1595043672183201,0.14843848655141834,0.12090586663042234,none
+72,true_stable,stable after matching,VeraDM,1,0,1,0.18488022007166474,0.1505558947581907,0.12427797184284821,none
+73,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18233835583101074,0.178205216692243,-0.006651166408247432,counterfactual
+73,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17974198446317297,0.1734387888266401,0.0028906222995050213,counterfactual
+73,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21286758479713924,0.011511337657062843,0.032654387087247966,heldout
+73,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20182319071069196,-0.015998791230641636,0.016582033743869098,heldout
+73,true_stable,stable after matching,StableEnv-BH,1,0,1,0.14901506422840216,0.14917491392245996,0.13095271376583556,none
+73,true_stable,stable after matching,VeraDM,1,0,1,0.15922510844481763,0.14698448913432827,0.13332277653467176,none
+74,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1772244295149725,0.16615215638839484,0.0017672435400129926,counterfactual
+74,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1746896003691655,0.18148106585943227,0.007012883836357226,counterfactual
+74,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.22780794522259734,-0.0026254850614369704,0.020767343878288453,heldout
+74,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.22811613156150778,0.019331221131670608,0.025396729599214022,heldout
+74,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1643425693729571,0.15565972210046636,0.1410788630352345,none
+74,true_stable,stable after matching,VeraDM,1,0,1,0.15451763359090687,0.16803262338135588,0.11731585733899902,none
+75,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18091730334074316,0.17435324882405173,0.013819939241915078,counterfactual
+75,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17515525099905224,0.1832953653739912,-0.00812694450145643,counterfactual
+75,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.19886385257315278,0.00918207016773915,0.03356097671238072,heldout
+75,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.22144500646545648,0.0018234153978707087,0.019234412850428453,heldout
+75,true_stable,stable after matching,StableEnv-BH,1,0,1,0.17790312598386643,0.1591076833778958,0.12471687739734337,none
+75,true_stable,stable after matching,VeraDM,1,0,1,0.14686622559850596,0.1491168666641717,0.12816310807085543,none
+76,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18537279241073412,0.16578426515789896,-0.011572870929826638,counterfactual
+76,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18459805465454057,0.176678191460231,-0.002423653497017302,counterfactual
+76,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21914034807166624,0.014614765270165843,0.014738517173448243,heldout
+76,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20776351301223642,0.022492806862272154,0.009852158822098412,heldout
+76,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1555120177735602,0.1437795416585984,0.1397537200116448,none
+76,true_stable,stable after matching,VeraDM,1,0,1,0.1752879070507439,0.14892967107030922,0.1371905631701166,none
+77,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18425357787683064,0.17892973549352512,0.004339771259310601,counterfactual
+77,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1943061614016428,0.1606460359606572,0.006068629997147604,counterfactual
+77,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20166152779517635,0.004093097399489376,0.024674771064185048,heldout
+77,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.2074771099836852,0.024540366782618374,0.023141198131398914,heldout
+77,true_stable,stable after matching,StableEnv-BH,1,0,1,0.14930098147978554,0.1425021979185064,0.12402516555176513,none
+77,true_stable,stable after matching,VeraDM,1,0,1,0.14993153327216246,0.1521200895673789,0.1425773605740806,none
+78,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.16613520352413721,0.18478985756378236,-0.018852503778499265,counterfactual
+78,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17867553793066546,0.1797947164009944,-0.00686060959669965,counterfactual
+78,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.223466124695404,0.02711162561472011,0.026604373828140543,heldout
+78,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.1967717096689732,-0.0009379463827976896,0.017226780418662095,heldout
+78,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15362313058105315,0.15297407421048156,0.1378622662140598,none
+78,true_stable,stable after matching,VeraDM,1,0,1,0.1578034899381726,0.12425201909883092,0.13269530810532343,none
+79,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.17069160947015014,0.15820646222739623,-0.021103053223345637,counterfactual
+79,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.20239222945627347,0.17474993057035149,-0.005260400022717493,counterfactual
+79,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2084949909356333,-0.002280003370432786,0.025078676012419317,heldout
+79,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.2192936859188588,0.012098156260951575,0.019506161018667506,heldout
+79,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15050803515719424,0.14799357980753292,0.1410356388758567,none
+79,true_stable,stable after matching,VeraDM,1,0,1,0.14897748421356163,0.1514869739232455,0.12120757141807686,none
+80,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18907838654089262,0.1597045984370828,0.009000640423393174,counterfactual
+80,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.16117209210307945,0.17423954304123473,0.0076556598815502586,counterfactual
+80,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21736177543615903,0.013685355827813859,0.01617444276875453,heldout
+80,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.1904335596576438,0.004407382970767571,0.024169595482486657,heldout
+80,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1514062847263853,0.1602135309399238,0.11779140352099596,none
+80,true_stable,stable after matching,VeraDM,1,0,1,0.15207266780497933,0.1478212386424991,0.12738686324508888,none
+81,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.19157271685418695,0.18348404429738652,0.007004711803042829,counterfactual
+81,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17624982413771786,0.1742878168542678,-0.001685110924685947,counterfactual
+81,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.19621569817807197,0.01706288256414163,0.025216337244222998,heldout
+81,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21288742156446155,0.0021929008118356215,0.01449044666609137,heldout
+81,true_stable,stable after matching,StableEnv-BH,1,0,1,0.14981966544503256,0.14121988922411116,0.12031985443337483,none
+81,true_stable,stable after matching,VeraDM,1,0,1,0.15754358694305376,0.14389810841589684,0.12445367797969145,none
+82,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18537888618954476,0.16486664404151596,0.006083098699143962,counterfactual
+82,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17178845210194318,0.17236274551200492,0.0001006681737062666,counterfactual
+82,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.19738944721473126,0.01463142424531657,0.016505015453226007,heldout
+82,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.1990666587292843,0.007917769621328138,0.019261715923836915,heldout
+82,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16408049135252878,0.15728612151978338,0.14419470379643193,none
+82,true_stable,stable after matching,VeraDM,1,0,1,0.16771130770115827,0.15913145381235966,0.14748643368982414,none
+83,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1851712267828169,0.17355559668741505,0.007192191709313384,counterfactual
+83,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18857962845041604,0.15501887662309818,0.00302036899401908,counterfactual
+83,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.19912100310575673,0.012967423750056297,0.03181133658042403,heldout
+83,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.22426294986587966,0.00843168447970797,0.026687541193456052,heldout
+83,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1697409036189441,0.16671385106155973,0.12398236565070012,none
+83,true_stable,stable after matching,VeraDM,1,0,1,0.14687261938599175,0.16336074917730534,0.12289342991663309,none
+84,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.19283565522936158,0.16244730177032513,0.010825689279280721,counterfactual
+84,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18360674988569997,0.18400055330873571,0.004380404835211351,counterfactual
+84,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20068530329929263,0.01642524309693005,0.02742127165116462,heldout
+84,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21176888244503664,0.013871149832661939,0.012807231161180939,heldout
+84,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15819761079672587,0.1469636216070945,0.12743826557993537,none
+84,true_stable,stable after matching,VeraDM,1,0,1,0.16418300721252713,0.15379082474157435,0.1252940972670264,none
+85,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1728943322376987,0.1763753132140016,-0.006071811386581897,counterfactual
+85,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.16512109936317892,0.16393969488443422,-0.007715018060745652,counterfactual
+85,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2177982167044287,0.0036948051642468373,0.009069696075277647,heldout
+85,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20727048625894454,0.007107379371372572,0.019776481468112634,heldout
+85,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1576939317033093,0.15049699775816477,0.12036728956363274,none
+85,true_stable,stable after matching,VeraDM,1,0,1,0.15271978245084367,0.1520383422335101,0.1361671120961477,none
+86,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.17628337525133086,0.16376600186028276,-0.009442878890822317,counterfactual
+86,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1687680253573373,0.1821205546805558,0.007309768094067509,counterfactual
+86,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2030486916760357,0.009376644956304603,0.02348591031631083,heldout
+86,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20947918169148674,-0.007818730673645505,0.025745974400043073,heldout
+86,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15996271235239876,0.1506032207455837,0.12654928995822762,none
+86,true_stable,stable after matching,VeraDM,1,0,1,0.1807344789000399,0.14576071329819637,0.12802253151654516,none
+87,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.17461797627051667,0.14774686077781013,0.00242965901970784,counterfactual
+87,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1734606041896525,0.17209396064157642,-0.0038553940181000174,counterfactual
+87,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20161192290504182,0.0055081945662419285,0.018615705417448374,heldout
+87,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.2057227862366305,0.0010585343509180861,0.017891812910505782,heldout
+87,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16333580033409373,0.14518706778077586,0.12433248676979106,none
+87,true_stable,stable after matching,VeraDM,1,0,1,0.1625854862078055,0.12760517426613832,0.12686771238879127,none
+88,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.17433554874714133,0.1642739261714011,0.004509901531170337,counterfactual
+88,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17620851032494914,0.1828002207823086,0.008960966148649966,counterfactual
+88,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20263171857311466,0.008707982229948848,0.005265952095678601,heldout
+88,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.22296085422874393,0.003032253226972827,0.016668477039891303,heldout
+88,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1614746007477257,0.14736403745981563,0.13764438982375593,none
+88,true_stable,stable after matching,VeraDM,1,0,1,0.17752342219283865,0.1518685233509719,0.11984285156046959,none
+89,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1717485406642485,0.18008148172519778,-0.0026873544771599633,counterfactual
+89,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1921535546804048,0.18941462973436476,0.0039360740092618226,counterfactual
+89,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.19533473712846722,0.021008996649295904,0.01930864502899003,heldout
+89,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20202285344813858,0.01921227760068306,0.01648191268899713,heldout
+89,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1667437295850278,0.14528223896522335,0.13751610001088085,none
+89,true_stable,stable after matching,VeraDM,1,0,1,0.14886937657864996,0.12740982932302236,0.1431770363417152,none
+90,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18983479557825164,0.16487984202671055,-0.004058623146907767,counterfactual
+90,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.16442299375059927,0.17842799204860782,-0.0012341500827625083,counterfactual
+90,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20838232824871386,-0.002277894451310261,0.006692499366168836,heldout
+90,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.1906432594534031,-0.004652359192119567,0.018338338685277372,heldout
+90,true_stable,stable after matching,StableEnv-BH,1,0,1,0.14251937767878492,0.16281920441430592,0.13304795457651272,none
+90,true_stable,stable after matching,VeraDM,1,0,1,0.16566562113420147,0.14672812042281166,0.1331993428636968,none
+91,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.16445178067899452,0.16396397619877132,-0.007403775465054916,counterfactual
+91,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1768476575943599,0.15437393303824956,0.0005784691628178512,counterfactual
+91,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.19842462285895568,0.0036066228170043525,0.01675168440794389,heldout
+91,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21477465319637834,0.00830789142177099,0.011397475451548782,heldout
+91,true_stable,stable after matching,StableEnv-BH,1,0,1,0.17615674108290058,0.1565136163789155,0.12210696983359155,none
+91,true_stable,stable after matching,VeraDM,1,0,1,0.1505053592832018,0.1688728117006479,0.13430245615799052,none
+92,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.170035669174079,0.15475671356561355,-0.00012436233882739852,counterfactual
+92,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18969434697804327,0.15344444157326695,0.006231513090217312,counterfactual
+92,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.19961714725318877,0.008531255897304118,0.018521783584362427,heldout
+92,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.21472449594876306,0.006503202673467332,-0.006256291676127158,heldout
+92,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16041226992309568,0.15492819604525812,0.11390183129420434,none
+92,true_stable,stable after matching,VeraDM,1,0,1,0.16767216564232085,0.14743101823091417,0.12546585810711514,none
+93,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18633120633933042,0.17005460145105522,-0.011521333400524433,counterfactual
+93,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18969513881944908,0.1712100317462833,0.006004867612872021,counterfactual
+93,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2012828251043411,0.0035015445733860466,0.02815833469955397,heldout
+93,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20055416693896622,-0.006733628757727804,0.024398125777096324,heldout
+93,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1546516428222171,0.15405023319701872,0.14179776728346272,none
+93,true_stable,stable after matching,VeraDM,1,0,1,0.1560511774270294,0.16852400691224026,0.11984477290567876,none
+94,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.177058768025148,0.16431984895479926,-0.005868434931781028,counterfactual
+94,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18602525640907533,0.17111941221426946,0.001981510663332011,counterfactual
+94,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.2058213967470434,0.015008266288672524,0.027748298309985556,heldout
+94,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.2230828746225124,0.0015916603752954717,0.026857021948842395,heldout
+94,true_stable,stable after matching,StableEnv-BH,1,0,1,0.17289004066614705,0.14785654045825386,0.12602113568657297,none
+94,true_stable,stable after matching,VeraDM,1,0,1,0.1578570203692434,0.15601552409489872,0.12492358653828727,none
+95,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.19057653532462646,0.17419576548231464,0.006034220853531847,counterfactual
+95,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.15962065366610556,0.17683375509560226,0.00590303894112143,counterfactual
+95,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.1901666886821052,-0.002150301404786295,0.0028809708460410394,heldout
+95,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.204085978646043,0.02123547640757628,0.033492417813959174,heldout
+95,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15049355431573833,0.1568010956699057,0.13314704998390792,none
+95,true_stable,stable after matching,VeraDM,1,0,1,0.1692964978375401,0.15992017187938043,0.1301466994987267,none
+96,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.18818980837923294,0.1710645987086851,0.00366214532702864,counterfactual
+96,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.1851678124163662,0.16883180758122227,-0.006726126920859749,counterfactual
+96,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21829778030065417,0.007961045465964933,0.01726039712873148,heldout
+96,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.22049755643207938,-0.013371832835248098,0.02300203969876878,heldout
+96,true_stable,stable after matching,StableEnv-BH,1,0,1,0.1575217917320525,0.1541530008657121,0.12736923965953964,none
+96,true_stable,stable after matching,VeraDM,1,0,1,0.16933504448175685,0.14314901119933865,0.11019365148836388,none
+97,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.1911982346011337,0.17158277548714287,0.007401055139704579,counterfactual
+97,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.17188230503589966,0.15933715174866767,-0.009492081345752254,counterfactual
+97,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.21726410851280265,0.007318086134323321,0.010552167817686973,heldout
+97,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.2089484181661074,0.002877333766859969,0.02628462655629267,heldout
+97,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16077409487314692,0.1523176505805532,0.12264966939637528,none
+97,true_stable,stable after matching,VeraDM,1,0,1,0.1659487018434681,0.16939685127606463,0.11809289858652794,none
+98,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.16125220292478076,0.1702626493883209,0.004637521001931962,counterfactual
+98,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18688692177499736,0.16213974209240173,-0.004916447421026297,counterfactual
+98,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.22353665965692618,0.022207450234729066,0.012075932631036172,heldout
+98,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20353040833382838,0.015706632720144848,0.013351113056104596,heldout
+98,true_stable,stable after matching,StableEnv-BH,1,0,1,0.15861831371732907,0.1326524562353151,0.14413031759799488,none
+98,true_stable,stable after matching,VeraDM,1,0,1,0.15472995106246698,0.14650160096941978,0.13900075652816132,none
+99,stable_confounder,"marginal stable, matched null",StableEnv-BH,1,1,0,0.173023262458721,0.1835805630124464,0.012143479527391077,counterfactual
+99,stable_confounder,"marginal stable, matched null",VeraDM,0,0,0,0.18399511752238773,0.16362413951158913,-0.010668310152839082,counterfactual
+99,shifted_shortcut,"validation positive, held-out null",StableEnv-BH,0,0,0,0.20420291628383028,0.01553718705879472,0.01847181915938633,heldout
+99,shifted_shortcut,"validation positive, held-out null",VeraDM,0,0,0,0.20878557845128856,0.007647805225343798,0.009823695369596996,heldout
+99,true_stable,stable after matching,StableEnv-BH,1,0,1,0.16248864790104856,0.14464369993828383,0.13999709636093646,none
+99,true_stable,stable after matching,VeraDM,1,0,1,0.17919856363597164,0.13057077146771776,0.13373643099875238,none

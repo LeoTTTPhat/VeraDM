@@ -1,0 +1,11 @@
+{
+  "dataset": "SyntheticSeed1",
+  "provider": "ollama",
+  "model": "llama3.2:1b",
+  "hypotheses": [
+    "IF x<id> = 1 THEN y = 1 increases",
+    "IF x<id> = 1 AND x<id> = 1 THEN y = 1 increases",
+    "IF x<id> > <number> THEN y = 1 increases",
+    "IF x<id> > <number> AND x<id> <= <number> THEN y = 1 decreases"
+  ]
+}

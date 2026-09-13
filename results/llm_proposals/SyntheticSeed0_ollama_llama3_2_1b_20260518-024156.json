@@ -1,0 +1,9 @@
+{
+  "dataset": "SyntheticSeed0",
+  "provider": "ollama",
+  "model": "llama3.2:1b",
+  "hypotheses": [
+    "IF x0 = 1 THEN y = 1 increases",
+    "IF x4 = 1 AND x3 = 1 THEN y = 1 decreases"
+  ]
+}

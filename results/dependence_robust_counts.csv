@@ -1,0 +1,4 @@
+bh_accepted,by_survival_rate,by_survivors,dataset,hypotheses,min_by_q
+14,1.0,14,Bank,39,0.010681100928370076
+22,1.0,22,Bike,36,0.011998733020726886
+24,1.0,24,Healthcare,38,0.01394257367918254

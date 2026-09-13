@@ -1,0 +1,8 @@
+```json
+{
+  "hypotheses": [
+    "IF adult_age_ge_40 = 1 THEN y = 1 increases",
+    "IF adult_age_ge_40 = 1 AND adult_age_ge_55 = 1 THEN y = 1 decreases"
+  ]
+}
+```

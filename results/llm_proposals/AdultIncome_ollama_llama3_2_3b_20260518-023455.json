@@ -1,0 +1,9 @@
+{
+  "dataset": "AdultIncome",
+  "provider": "ollama",
+  "model": "llama3.2:3b",
+  "hypotheses": [
+    "hypothesis = f\"IF {feature_ids[i]} = 1 THEN y = 1 increases",
+    "hypothesis = f\"IF {feature_ids[i]} > {threshold} THEN y = 1 increases"
+  ]
+}

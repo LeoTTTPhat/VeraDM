@@ -1,0 +1,23 @@
+# LLM Hypothesis Proposal Prompt
+
+Based on the provided verifier's grammar and rules, I propose the following candidate data-mining hypotheses for a verifier:
+
+### Hypotheses
+
+```json
+{
+  "hypotheses": [
+    "IF x0 = 1 THEN y = 1 increases",
+    "IF x1 = 1 AND x4 = 1 THEN y = 1 decreases",
+    "IF x2 > 5 THEN y = 1 increases",
+    "IF x3 < 3 THEN y = 1 decreases",
+    "IF x0 = 1 AND x1 = 1 THEN y = 1 increases"
+  ]
+}
+```
+
+### Explanation
+
+These hypotheses are generated based on the provided grammar and rules, using only feature IDs listed in the schema. Each hypothesis uses at most two predicates per hypothesis, as required by the verifier's grammar. The hypotheses do not include explanations, as requested.
+
+Note that I have used the `x` feature IDs from the dataset to generate these hypotheses, assuming that they are the relevant features for this problem. If there are other features that should be considered, please let me know and I will update the hypotheses accordingly.

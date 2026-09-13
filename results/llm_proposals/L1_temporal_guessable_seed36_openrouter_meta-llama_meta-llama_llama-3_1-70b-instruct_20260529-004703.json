@@ -1,0 +1,31 @@
+{
+  "dataset": "L1_temporal_guessable_seed36",
+  "provider": "openrouter/meta-llama",
+  "model": "meta-llama/llama-3.1-70b-instruct",
+  "hypotheses": [
+    "IF x0 = 1 THEN y = 1 increases",
+    "IF x2 = 1 THEN y = 1 increases",
+    "IF x4 = 1 THEN y = 1 increases",
+    "IF x0 = 1 AND x2 = 1 THEN y = 1 increases",
+    "IF x0 = 1 AND x4 = 1 THEN y = 1 increases",
+    "IF x2 = 1 AND x4 = 1 THEN y = 1 increases",
+    "IF x0 > 0.5 THEN y = 1 increases",
+    "IF x2 > 0.5 THEN y = 1 increases",
+    "IF x0 > 0.5 AND x2 <= 0.5 THEN y = 1 decreases",
+    "IF EVENT x4 WITHIN 30 DAYS THEN y = 1 increases",
+    "IF SEQUENCE x2 -> x4 WITHIN 30 DAYS THEN y = 1 increases",
+    "IF TREATMENT x2 = 1 AMONG x0 = 1 THEN y = 1 increases",
+    "IF x1 = 1 THEN y = 1 decreases",
+    "IF x3 = 1 THEN y = 1 decreases",
+    "IF x5 = 1 THEN y = 1 decreases",
+    "IF x6 = 1 THEN y = 1 decreases",
+    "IF x7 = 1 THEN y = 1 decreases",
+    "IF x1 = 1 AND x3 = 1 THEN y = 1 decreases",
+    "IF x1 = 1 AND x5 = 1 THEN y = 1 decreases",
+    "IF x3 = 1 AND x5 = 1 THEN y = 1 decreases",
+    "IF x6 = 1 AND x7 = 1 THEN y = 1 decreases",
+    "IF x1 > 0.5 THEN y = 1 decreases",
+    "IF x3 > 0.5 THEN y = 1 decreases",
+    "IF x5 > 0.5 AND x6 <= 0.5 THEN y = 1 increases"
+  ]
+}

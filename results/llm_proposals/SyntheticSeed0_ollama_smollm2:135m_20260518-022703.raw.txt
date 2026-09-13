@@ -1,0 +1,20 @@
+```json
+{
+  "hypotheses": [
+    {
+      "x0": 1,
+      "y": 1,
+      "support": 0.504,
+      "discovery_risk_difference": 0.286,
+      "number": 3
+    },
+    {
+      "x1": 1,
+      "y": 1,
+      "support": 0.494,
+      "discovery_risk_difference": 0.285,
+      "number": 7
+    }
+  ]
+}
+```

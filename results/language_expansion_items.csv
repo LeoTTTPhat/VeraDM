@@ -1,0 +1,10 @@
+compiled,decision,estimand,holdout_effect,kind,q_value,query,reason,text,validation_effect
+1,accepted,association,-0.1351642980913874,tabular,0.0024937655860349127,x6 = 1 AND x7 >= 1 -> P(y=1) decreases,passes all verification gates,IF x6 = 1 AND x7 >= 1 THEN y = 1 decreases,-0.1241029358463211
+1,accepted,association,0.2824882636491598,temporal,0.0024937655860349127,event_x2_within_30d = 1 -> P(y=1) increases,passes all verification gates,IF EVENT x2 WITHIN 30 DAYS THEN y = 1 increases,0.2961945975883971
+1,accepted,association,0.3199919188291281,sequence,0.0024937655860349127,seq_x2_x3_within_7d = 1 -> P(y=1) increases,passes all verification gates,IF SEQUENCE x2 -> x3 WITHIN 7 DAYS THEN y = 1 increases,0.3701025176299034
+1,accepted,subgroup_treatment_effect,0.25346741552874463,treatment,0.0024937655860349127,TREATMENT x0 = 1 AMONG x1 = 1 -> E[y(1)-y(0)] increases,passes all verification gates,IF TREATMENT x0 = 1 AMONG x1 = 1 THEN y = 1 increases,0.2737294875864455
+1,accepted,subgroup_treatment_effect,0.27315626997402526,treatment,0.0024937655860349127,TREATMENT x0 = 1 AMONG x1 = 1 AND x6 = 1 -> E[y(1)-y(0)] increases,passes all verification gates,IF TREAT x0 = 1 FOR x1 = 1 AND x6 = 1 THEN y = 1 increases,0.26274373259052924
+0,,,,temporal,,could not find engineered feature for event_x2_within_90d,,IF EVENT x2 WITHIN 90 DAYS THEN y = 1 increases,
+0,,,,sequence,,could not find engineered feature for seq_x2_x8_within_7d,,IF SEQUENCE x2 -> x8 WITHIN 7 DAYS THEN y = 1 increases,
+0,,,,treatment,,treatment hypotheses must specify AMONG/FOR subgroup predicates,,IF TREATMENT x0 = 1 THEN y = 1 increases,
+0,,,,treatment,,unknown feature x99,,IF TREATMENT x99 = 1 AMONG x1 = 1 THEN y = 1 increases,

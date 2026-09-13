@@ -1,0 +1,4 @@
+accepted,dataset,max_smd_after_exact_context,mean_max_smd_before,mean_retained_in_overlap_strata
+14,Bank,0.0,0.45128425817881773,0.9254632799794572
+22,Bike,0.0,1.6094414353257436,0.5968559313269212
+24,Healthcare,0.0,0.32168761248143074,0.9825703083544602

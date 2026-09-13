@@ -1,0 +1,12 @@
+{
+  "dataset": "GermanCredit",
+  "provider": "ollama",
+  "model": "llama3.2:1b",
+  "hypotheses": [
+    "IF x0 = 1 THEN y = 1 increases",
+    "IF x1 = 1 AND x4 = 1 THEN y = 1 decreases",
+    "IF x2 > 24 THEN y = 1 increases",
+    "IF x3 = 1 AND x5 = 1 THEN y = 1 decreases",
+    "IF x6 = 1 AND x7 = 1 THEN y = 1 increases"
+  ]
+}

@@ -1,0 +1,57 @@
+# LLM Hypothesis Proposal Prompt
+
+You are proposing candidate data-mining hypotheses for a verifier.
+
+The verifier accepts only hypotheses in this exact grammar:
+
+```text
+IF x<id> = 1 THEN y = 1 increases
+IF x<id> = 1 THEN y = 1 decreases
+IF x<id> = 1 AND x<id> = 1 THEN y = 1 increases
+IF x<id> = 1 AND x<id> = 1 THEN y = 1 decreases
+IF x<id> > <number> THEN y = 1 increases
+IF x<id> > <number> AND x<id> <= <number> THEN y = 1 decreases
+```
+
+Rules:
+
+- Use only feature IDs listed in the schema.
+- Use at most two predicates per hypothesis.
+- You may use `=`, `>`, `>=`, `<`, or `<=` when the threshold is meaningful.
+- Do not invent features.
+- Do not include explanations.
+- Return JSON only.
+- Return an object with a single key named `hypotheses`.
+- `hypotheses` must be an array of strings.
+
+Example output:
+
+```json
+{
+  "hypotheses": [
+    "IF x0 = 1 THEN y = 1 increases",
+    "IF x1 = 1 AND x4 = 1 THEN y = 1 decreases"
+  ]
+}
+```
+
+
+Dataset name: GermanCredit
+Number of hypotheses requested: 10
+
+Target: y is binary. y = 1 is the positive class.
+Feature schema and discovery-set summaries:
+- x0: german_checking_none; support=0.406; discovery_risk_difference=-0.248
+- x1: german_checking_bad; support=0.268; discovery_risk_difference=0.221
+- x2: german_duration_ge_24; support=0.397; discovery_risk_difference=0.141
+- x3: german_credit_amount_high; support=0.500; discovery_risk_difference=-0.006
+- x4: german_savings_low; support=0.585; discovery_risk_difference=0.110
+- x5: german_employed_short; support=0.224; discovery_risk_difference=0.145
+- x6: german_installment_high; support=0.509; discovery_risk_difference=0.079
+- x7: german_age_lt_30; support=0.365; discovery_risk_difference=0.016
+- x8: german_property_unknown; support=0.129; discovery_risk_difference=0.254
+- x9: german_housing_own; support=0.738; discovery_risk_difference=-0.140
+- x10: german_existing_credit_multi; support=0.385; discovery_risk_difference=-0.069
+- x11: german_foreign_worker; support=0.974; discovery_risk_difference=0.263
+
+Return JSON now.

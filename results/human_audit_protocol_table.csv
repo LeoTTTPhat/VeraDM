@@ -1,0 +1,7 @@
+component,detail
+Design,"within-subjects, randomized prose-only vs. evidence-card audit"
+Items,"12 candidate rules from Bank, Bike, and Healthcare; balanced accepted/rejected"
+Participants,n=16; anonymized IDs; authors excluded
+Accuracy,evidence cards 0.875; prose-only 0.698; difference 0.177
+Time,median 47.5s for cards vs. 29.0s for prose
+Paired test,mean within-subject difference 0.177; sign-test p=0.035

@@ -1,0 +1,3 @@
+accepted,candidate_rules,empirical_fdr,false_discoveries,method,null_only_false_discoveries,proxy_aware_false_discoveries,proxy_aware_fdr,recall,shifted_accepts,signal_proxy_rules,true_hits
+3,3,0.0,0,Tarone-Bonferroni,0,0,0.0,1.0,0,3,3
+3,3,0.0,0,BH-Exhaustive,0,0,0.0,1.0,0,3,3

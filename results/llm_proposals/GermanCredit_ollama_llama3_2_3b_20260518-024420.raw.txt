@@ -1,0 +1,9 @@
+import json
+
+# Define the feature schema and discovery-set summaries
+feature_schema = {
+    "x0": {"name": "german_checking_none", "support": 0.406, "discovery_risk_difference": -0.248},
+    "x1": {"name": "german_checking_bad", "support": 0.268, "discovery_risk_difference": 0.221},
+    "x2": {"name": "german_duration_ge_24", "support": 0.397, "discovery_risk_difference": 0.141},
+    "x3": {"name": "german_credit_amount_high", "support": 0.500, "discovery_risk_difference": -0.006},
+    "x4": {"name": "german_savings_low", "support": 0.585

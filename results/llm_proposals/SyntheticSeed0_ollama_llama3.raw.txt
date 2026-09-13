@@ -1,0 +1,13 @@
+import json
+from random import randint, choice
+
+# Define the feature schema and discovery-set summaries
+feature_schema = {
+    "x0": {"support": 0.504, "discovery_risk_difference": 0.286},
+    "x1": {"support": 0.494, "discovery_risk_difference": 0.285},
+    "x2": {"support": 0.514, "discovery_risk_difference": 0.742},
+    "x3": {"support": 0.509, "discovery_risk_difference": 0.020},
+    "x4": {"support": 0.512, "discovery_risk_difference": -0.001},
+    "x5": {"support": 0.494, "discovery_risk_difference": -0.058},
+    "x6": {"support": 0.492, "discovery_risk_difference": 0.031},
+    "x7": {"support": 0.517, "discovery_risk_difference": -

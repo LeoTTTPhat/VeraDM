@@ -1,0 +1,15 @@
+import json
+from itertools import combinations
+
+# Define the feature schema and discovery-set summaries
+feature_schema = {
+    "x0": {"name": "german_checking_none", "support": 0.406, "discovery_risk_difference": -0.248},
+    "x1": {"name": "german_checking_bad", "support": 0.268, "discovery_risk_difference": 0.221},
+    "x2": {"name": "german_duration_ge_24", "support": 0.397, "discovery_risk_difference": 0.141},
+    "x3": {"name": "german_credit_amount_high", "support": 0.500, "discovery_risk_difference": -0.006},
+    "x4": {"name": "german_savings_low", "support": 0.585, "discovery_risk_difference": 0.110},
+    "x5": {"name": "german_employed_short", "support": 0.224, "discovery_risk_difference": 0.145},
+    "x6": {"name": "german_installment_high", "support": 0.509, "discovery_risk_difference": 0.079},
+    "x7": {"name": "german_age_lt_30", "support": 0.365, "discovery_risk_difference": 0.016},
+    "x8": {"name": "german_property_unknown", "support": 0.129, "discovery_risk_difference": 0.254},
+    "x9": {"name": "german_housing_own", "support": 0.738

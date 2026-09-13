@@ -1,0 +1,7 @@
+accepted,accepted_queries,alpha_spent,conditioned_on,dataset,heldout_shard_n,proposed,rejected,round,wealth_after
+0,,0.05,schema-broad singleton scan,Bank,1367,8,8,1,0.05
+0,,0.03,repair around previously rejected families,Bank,1367,8,8,2,0.020000000000000004
+4,bank_duration_ge_180 = 1 -> P(y=1) increases | bank_duration_ge_300 = 1 -> P(y=1) increases | bank_duration_ge_600 = 1 -> P(y=1) increases,0.020000000000000004,repair around previously rejected families,Bank,1367,8,4,3,0.0
+6,bike_warm_season = 1 -> P(y=1) increases | bike_commute_hour = 1 -> P(y=1) increases | bike_morning_peak = 1 -> P(y=1) increases,0.05,schema-broad singleton scan,Bike,2912,8,2,1,0.05
+3,bike_workingday = 1 AND bike_morning_peak = 1 -> P(y=1) increases | bike_workingday = 1 AND bike_evening_peak = 1 -> P(y=1) increases | bike_weekend = 1 AND bike_midday = 1 -> P(y=1) increases,0.03,follow-up around previously accepted families,Bike,2911,8,5,2,0.020000000000000004
+5,bike_summer = 1 AND bike_evening_peak = 1 -> P(y=1) increases | bike_fall = 1 AND bike_commute_hour = 1 -> P(y=1) increases | bike_cold_night = 1 AND bike_night = 1 -> P(y=1) decreases,0.020000000000000004,follow-up around previously accepted families,Bike,2911,8,3,3,0.0

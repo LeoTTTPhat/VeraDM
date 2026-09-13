@@ -1,0 +1,34 @@
+```json
+{
+  "hypotheses": [
+    {
+      "x0": 1,
+      "y": 1,
+      "support": 0.440,
+      "discovery_risk_difference": 0.203,
+      "number": 5,
+      "target": "adult_income"
+    },
+    {
+      "x1": 1,
+      "y": 1,
+      "support": 0.132,
+      "discovery_risk_difference": 0.060,
+      "number": 4,
+      "target": "adult_education_bachelors_plus"
+    },
+    {
+      "x2": 1,
+      "y": 1,
+      "support": 0.252,
+      "discovery_risk_difference": 0.316,
+      "number": 7,
+      "target": "adult_capital_gain_positive"
+    },
+    {
+      "x4": 1,
+      "y": 1,
+      "support": 0.288,
+      "discovery_risk_difference": 0.372,
+      "number": 5,
+      "target": "adult

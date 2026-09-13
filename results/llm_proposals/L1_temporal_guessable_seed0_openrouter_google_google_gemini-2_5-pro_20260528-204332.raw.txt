@@ -1,0 +1,6 @@
+```json
+{
+  "hypotheses": [
+    "IF x4 = 1 THEN y = 1 increases",
+    "IF x2 = 1 THEN y = 1 increases",
+    

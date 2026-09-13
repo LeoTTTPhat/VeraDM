@@ -1,0 +1,56 @@
+{
+  "name": "Verifiable Discovery Benchmark",
+  "version": "0.1.0",
+  "project": "VeraDM: LLM-Guided Data Mining With Verifiable Discovery",
+  "tracks": [
+    {
+      "id": "synthetic_failure_matrix",
+      "description": "Synthetic regimes where each verifier gate is necessary on some seed.",
+      "primary_files": [
+        "results/synthetic_failure_matrix_summary.csv",
+        "results/null_fdr_sweep_summary.csv"
+      ],
+      "primary_metrics": ["invalid_accept_rate", "achieved_fdr", "gate_rejection_rate"]
+    },
+    {
+      "id": "real_injection",
+      "description": "Known true and known-null rules injected into real covariates.",
+      "primary_files": [
+        "results/real_injection_summary.csv"
+      ],
+      "primary_metrics": ["injected_recall", "empirical_fdr"]
+    },
+    {
+      "id": "temporal_replication",
+      "description": "Natural temporal/source/environment splits with held-out replication.",
+      "primary_files": [
+        "results/bank_temporal_evidence_cards.csv",
+        "results/bike_sharing_evidence_cards.csv",
+        "results/healthcare_readmission_evidence_cards.csv"
+      ],
+      "primary_metrics": ["replication_survival", "accepted", "rejected_by_reason"]
+    },
+    {
+      "id": "two_step_context",
+      "description": "Hypothesis plus identifying-assumption/context-variable proposal for the contrast gate.",
+      "primary_files": [
+        "results/context_assumption_proposals.csv",
+        "results/context_assumption_summary.csv"
+      ],
+      "primary_metrics": ["context_compile_rate", "contrast_rejections", "accepted_with_context"]
+    },
+    {
+      "id": "auditability",
+      "description": "Evidence-card completeness, human-audit protocol, and reproducibility-oriented reporting.",
+      "primary_files": [
+        "results/evidence_card_examples.csv",
+        "results/human_audit_protocol_table.csv",
+        "results/human_audit_paired_stats.csv"
+      ],
+      "primary_metrics": ["evidence_completeness", "audit_accuracy", "audit_time"]
+    }
+  ],
+  "submission_schema": "benchmark/submission_schema.json",
+  "leaderboard_schema": "benchmark/leaderboard_schema.csv",
+  "license_note": "Dataset licenses follow their upstream sources; benchmark metadata and generated evaluation scripts are intended for public release with this artifact."
+}

@@ -1,0 +1,37 @@
+{
+  "required_columns": [
+    "dataset",
+    "run_id",
+    "claim",
+    "compiled_query",
+    "decision",
+    "p_value",
+    "q_value",
+    "validation_effect",
+    "heldout_effect",
+    "contrast_effect",
+    "support_validation",
+    "support_holdout",
+    "rejection_reason",
+    "evidence_card_json"
+  ],
+  "decision_values": ["accepted", "rejected", "uncompiled"],
+  "numeric_columns": [
+    "p_value",
+    "q_value",
+    "validation_effect",
+    "heldout_effect",
+    "contrast_effect",
+    "support_validation",
+    "support_holdout"
+  ],
+  "optional_columns": [
+    "proposal_model",
+    "proposal_temperature",
+    "llm_confidence",
+    "context_variables",
+    "identifying_assumption",
+    "runtime_seconds",
+    "cost_usd"
+  ]
+}

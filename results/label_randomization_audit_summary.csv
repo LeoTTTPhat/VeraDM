@@ -1,0 +1,2 @@
+dataset,seeds,hypotheses,accepted_mean,accepted_rate_mean,accepted_rate_ci_low,accepted_rate_ci_high,max_accepted
+BankMarketingMonth,50,39,0.0,0.0,0.0,0.0,0

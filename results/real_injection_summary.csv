@@ -1,0 +1,4 @@
+accepted_ci_high,accepted_ci_low,accepted_mean,dataset,empirical_fdr_ci_high,empirical_fdr_ci_low,empirical_fdr_mean,null_accepts_ci_high,null_accepts_ci_low,null_accepts_mean,recall_ci_high,recall_ci_low,recall_mean,runs,true_accepts_ci_high,true_accepts_ci_low,true_accepts_mean
+3.0,3.0,3.0,Adult,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,30,3.0,3.0,3.0
+0.0,0.0,0.0,German,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30,0.0,0.0,0.0
+1.0,1.0,1.0,BankTemporal,0.0,0.0,0.0,0.0,0.0,0.0,0.3333333333333335,0.33333333333333337,0.3333333333333334,30,1.0,1.0,1.0

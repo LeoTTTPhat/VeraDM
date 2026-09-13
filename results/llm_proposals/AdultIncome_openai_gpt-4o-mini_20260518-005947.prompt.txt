@@ -1,0 +1,55 @@
+# LLM Hypothesis Proposal Prompt
+
+You are proposing candidate data-mining hypotheses for a verifier.
+
+The verifier accepts only hypotheses in this exact grammar:
+
+```text
+IF x<id> = 1 THEN y = 1 increases
+IF x<id> = 1 THEN y = 1 decreases
+IF x<id> = 1 AND x<id> = 1 THEN y = 1 increases
+IF x<id> = 1 AND x<id> = 1 THEN y = 1 decreases
+```
+
+Rules:
+
+- Use only feature IDs listed in the schema.
+- Use at most two predicates per hypothesis.
+- Do not invent features.
+- Do not include explanations.
+- Return JSON only.
+- Return an object with a single key named `hypotheses`.
+- `hypotheses` must be an array of strings.
+
+Example output:
+
+```json
+{
+  "hypotheses": [
+    "IF x0 = 1 THEN y = 1 increases",
+    "IF x1 = 1 AND x4 = 1 THEN y = 1 decreases"
+  ]
+}
+```
+
+
+
+Dataset name: AdultIncome
+Number of hypotheses requested: 24
+
+Target: y is binary. y = 1 is the positive class.
+Feature schema and discovery-set summaries:
+- x0: adult_age_ge_40; support=0.440; discovery_risk_difference=0.203
+- x1: adult_age_ge_55; support=0.132; discovery_risk_difference=0.060
+- x2: adult_education_bachelors_plus; support=0.252; discovery_risk_difference=0.316
+- x3: adult_hours_ge_45; support=0.288; discovery_risk_difference=0.226
+- x4: adult_capital_gain_positive; support=0.087; discovery_risk_difference=0.405
+- x5: adult_capital_loss_positive; support=0.048; discovery_risk_difference=0.285
+- x6: adult_private_workclass; support=0.736; discovery_risk_difference=-0.121
+- x7: adult_married; support=0.477; discovery_risk_difference=0.372
+- x8: adult_exec_managerial; support=0.133; discovery_risk_difference=0.278
+- x9: adult_professional_specialty; support=0.132; discovery_risk_difference=0.214
+- x10: adult_male; support=0.676; discovery_risk_difference=0.193
+- x11: adult_native_us; support=0.909; discovery_risk_difference=0.055
+
+Return JSON now.

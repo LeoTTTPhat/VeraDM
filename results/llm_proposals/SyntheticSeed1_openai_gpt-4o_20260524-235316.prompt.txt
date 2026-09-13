@@ -1,0 +1,23 @@
+Return only valid JSON. No markdown. No explanation.
+JSON schema: {"hypotheses": ["IF x0 = 1 THEN y = 1 increases"]}
+Allowed rule forms:
+- IF x<id> = 1 THEN y = 1 increases
+- IF x<id> = 1 THEN y = 1 decreases
+- IF x<id> = 1 AND x<id> = 1 THEN y = 1 increases
+- IF x<id> = 1 AND x<id> = 1 THEN y = 1 decreases
+Use only listed x ids. Use at most two predicates. Do not invent features.
+Dataset: SyntheticSeed1
+Requested hypotheses: 24
+
+Target: y is binary. y = 1 is the positive class.
+Feature schema and discovery-set summaries:
+- x0: x0; support=0.482; discovery_risk_difference=0.328
+- x1: x1; support=0.529; discovery_risk_difference=0.300
+- x2: x2; support=0.544; discovery_risk_difference=0.754
+- x3: x3; support=0.478; discovery_risk_difference=0.013
+- x4: x4; support=0.506; discovery_risk_difference=-0.020
+- x5: x5; support=0.477; discovery_risk_difference=-0.031
+- x6: x6; support=0.492; discovery_risk_difference=0.059
+- x7: x7; support=0.503; discovery_risk_difference=-0.015
+
+JSON:

@@ -1,0 +1,9 @@
+accepted,hypotheses,metric,n,rejected,target_rate
+14,39,discovery_MayJun,19087,25,0.07570597789071096
+14,39,validation_JulAug,13352,25,0.09766327142001198
+14,39,holdout_Nov,4101,25,0.10143867349426969
+,39,insufficient_support,7,,
+,39,weak_validation,16,,
+,39,not_significant,3,,
+,39,weak_contrast,16,,
+,39,heldout_failure,14,,

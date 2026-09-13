@@ -1,0 +1,6 @@
+{
+  "dataset": "AdultIncome",
+  "provider": "ollama",
+  "model": "smollm2:135m",
+  "hypotheses": []
+}

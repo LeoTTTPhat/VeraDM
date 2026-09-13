@@ -1,0 +1,46 @@
+```json
+{
+  "hypotheses": [
+    {
+      "x0": 1,
+      "y": 1,
+      "support": 0.504,
+      "discovery_risk_difference": 0.286,
+      "number": 3,
+      "target": "y is binary"
+    },
+    {
+      "x1": 1,
+      "y": 1,
+      "support": 0.494,
+      "discovery_risk_difference": 0.285,
+      "number": 6,
+      "target": "positive class"
+    },
+    {
+      "x2": 1,
+      "y": 1,
+      "support": 0.514,
+      "discovery_risk_difference": -0.001,
+      "number": 3,
+      "target": "negative class"
+    },
+    {
+      "x3": 1,
+      "y": 1,
+      "support": 0.517,
+      "discovery_risk_difference": -0.041,
+      "number": 6,
+      "target": "positive class"
+    },
+    {
+      "x4": 1,
+      "y": 1,
+      "support": 0.523,
+      "discovery_risk_difference": 0.742,
+      "number": 8,
+      "target": "negative class"
+    }
+  ]
+}
+```

@@ -1,0 +1,47 @@
+# LLM Hypothesis Proposal Prompt
+
+Based on the provided verifier's grammar and rules, I propose the following candidate data-mining hypotheses for a verifier:
+
+### Hypotheses
+
+```json
+{
+  "hypotheses": [
+    "IF x0 = 1 THEN y = 1 increases",
+    "IF x4 = 1 AND x3 = 1 THEN y = 1 decreases"
+  ]
+}
+```
+
+These hypotheses adhere to the specified grammar and rules, using only feature IDs listed in the schema, with at most two predicates per hypothesis. They also meet the requirements for binary classification (target: `y` is binary) and do not include explanations.
+
+### Dataset Information
+
+```json
+{
+  "dataset_name": "SyntheticSeed0",
+  "number_of_hypotheses_requested": 12,
+  "target": {
+    "class": "positive",
+    "label": "1"
+  },
+  "feature_schema_and_discovery_set_summaries": {
+    // feature schema and discovery risk difference summaries
+  }
+}
+```
+
+This dataset information is included to provide context for the verifier's performance evaluation.
+
+### Return JSON
+
+```json
+{
+  "hypotheses": [
+    "IF x0 = 1 THEN y = 1 increases",
+    "IF x4 = 1 AND x3 = 1 THEN y = 1 decreases"
+  ]
+}
+```
+
+This is the final output, conforming to the specified

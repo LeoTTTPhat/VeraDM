@@ -1,0 +1,5 @@
+dataset,discoveries,empirical_fdr,false_discoveries,mean_weight_nonreplicating,mean_weight_replicating,method,power,replicating_discoveries,selected_alpha
+Bank temporal,0,0.0,0,1.0,1.0,Uniform BH,0.0,0,0.002
+Bank temporal,21,0.0,0,0.3196362875736281,1.5831688963654615,"Weighted BH, calibrated",1.0,21,0.005
+Bank temporal,0,0.0,0,1.753610772877744,0.35404790896193294,"Weighted BH, miscalibrated",0.0,0,0.003
+Bank temporal,10,1.0,10,1.753610772877744,0.35404790896193294,"Weighted BH, miscalibrated at calibrated alpha",0.0,0,0.005

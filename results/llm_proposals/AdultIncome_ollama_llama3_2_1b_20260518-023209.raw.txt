@@ -1,0 +1,14 @@
+# LLM Hypothesis Proposal Prompt
+
+Based on the provided verifier grammar and dataset, I propose the following candidate data-mining hypotheses for a verifier:
+
+```json
+{
+  "hypotheses": [
+    "IF x0 = 1 THEN y = 1 increases",
+    "IF x4 = 1 AND x5 = 1 THEN y = 1 decreases"
+  ]
+}
+```
+
+These two hypotheses are derived from the feature IDs listed in the schema and adhere to the rules specified by the verifier. The first hypothesis uses `x0` as a feature, which is supported with a support of 44% and has a discovery risk difference of 203. The second hypothesis uses `x4` and `x5` as features, both of which are supported with a support of 87%.

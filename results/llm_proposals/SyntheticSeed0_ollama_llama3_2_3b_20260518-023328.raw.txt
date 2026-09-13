@@ -1,0 +1,24 @@
+import json
+
+# Define the hypotheses based on the provided dataset and schema
+hypotheses = [
+    "IF x0 = 1 THEN y = 1 increases",
+    "IF x1 = 1 AND x4 = 1 THEN y = 1 decreases",
+    "IF x2 = 1 THEN y = 1 increases",
+    "IF x3 > 0.5 THEN y = 1 increases",
+    "IF x6 >= 0.5 AND x7 <= 0.5 THEN y = 1 decreases",
+    "IF x0 > 0.5 THEN y = 1 increases",
+    "IF x2 > 0.5 THEN y = 1 increases",
+    "IF x3 < 0.5 THEN y = 1 increases",
+    "IF x4 >= 0.5 AND x7 <= 0.5 THEN y = 1 decreases",
+    "IF x6 > 0.5 THEN y = 1 increases",
+    "IF x2 > 0.5 AND x3 < 0.5 THEN y = 1 increases"
+]
+
+# Create the output JSON
+output = {
+    "hypotheses": hypotheses
+}
+
+# Print the output in JSON format
+print(json.dumps(output, indent=4))

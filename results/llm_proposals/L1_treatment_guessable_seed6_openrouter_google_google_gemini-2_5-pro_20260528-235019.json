@@ -1,0 +1,32 @@
+{
+  "dataset": "L1_treatment_guessable_seed6",
+  "provider": "openrouter/google",
+  "model": "google/gemini-2.5-pro",
+  "hypotheses": [
+    "IF x1 = 1 THEN y = 1 increases",
+    "IF x0 = 1 THEN y = 1 increases",
+    "IF x2 = 1 THEN y = 1 increases",
+    "IF x5 = 1 THEN y = 1 decreases",
+    "IF x0 = 1 AND x1 = 1 THEN y = 1 increases",
+    "IF x1 = 1 AND x2 = 1 THEN y = 1 increases",
+    "IF x0 = 1 AND x2 = 1 THEN y = 1 increases",
+    "IF x1 = 1 AND x5 = 1 THEN y = 1 increases",
+    "IF x0 = 1 AND x5 = 1 THEN y = 1 increases",
+    "IF x2 = 1 AND x5 = 1 THEN y = 1 increases",
+    "IF x4 = 1 THEN y = 1 increases",
+    "IF x6 = 1 THEN y = 1 increases",
+    "IF x7 = 1 THEN y = 1 increases",
+    "IF x1 = 1 AND x3 = 1 THEN y = 1 increases",
+    "IF x0 = 1 AND x3 = 1 THEN y = 1 increases",
+    "IF x3 = 1 AND x5 = 1 THEN y = 1 decreases",
+    "IF x4 = 1 AND x6 = 1 THEN y = 1 increases",
+    "IF x4 = 1 AND x7 = 1 THEN y = 1 increases",
+    "IF x6 = 1 AND x7 = 1 THEN y = 1 increases",
+    "IF x1 = 1 AND x4 = 1 THEN y = 1 increases",
+    "IF x0 = 1 AND x4 = 1 THEN y = 1 increases",
+    "IF x2 = 1 AND x4 = 1 THEN y = 1 increases",
+    "IF x2 = 1 AND x6 = 1 THEN y = 1 increases",
+    "IF x2 = 1 AND x7 = 1 THEN y = 1 increases",
+    "IF x4 = 1 AND x5 = 1 THEN y = 1 decreases"
+  ]
+}
